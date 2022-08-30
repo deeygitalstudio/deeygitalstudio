@@ -5,8 +5,7 @@
 }
 
 #banner{
-    background: linear-gradient(rgba(0,0,0,0.5),#009688),url('../images/young-woman-3742191_1920.jpg');
-    background-size: cover;
+       background-size: cover;
     background-position: center;
     height: 100vh;
 }
