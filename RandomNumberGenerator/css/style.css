@@ -1,21 +1,15 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+
 body{
    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
-}
-
-label{
-    margin: 5px;
-    
-}
-
-
-.w3-display-container{
-    width: 100%;
-}
-
-.w3-input{
-    margin: 5px;
+   width: 100%
 }
