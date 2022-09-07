@@ -50,7 +50,7 @@ AOS.init();
               slidesToScroll: 1
             }
           }
-          //
+          
         ],
         
 
