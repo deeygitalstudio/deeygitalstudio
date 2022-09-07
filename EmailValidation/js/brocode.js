@@ -824,6 +824,7 @@ function validateEmail(){
     if (!emailInput.value.match((/^[A-Za-z\._\-0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/))){
         emailError.innerHTML = "Please enter a valid email address.";
         emailInput.style.borderBottomColor = "red";
+         emailError.style.color = "red";
         emailError.style.top = '120%';
         return false;
 
