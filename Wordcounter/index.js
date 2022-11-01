@@ -1,6 +1,7 @@
+$(document).ready(function(){
 $('#text').on('keyup', function(){
 var countEl = $('#text').val().trim().split(' ');
-	$('#count').text(countEl.length);
+$('#count').text(countEl.length);
 })
 
 $('#clear').click(function(){
@@ -9,3 +10,4 @@ $('#count').text('0');
  })
    
 });
+
