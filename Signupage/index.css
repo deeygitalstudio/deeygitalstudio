@@ -815,3 +815,29 @@ span .fa{
   color: yellow;
   font-size: 9px;
 }
+
+ .grid-40{
+  animation: slide-up 0.5s ease;
+}
+
+@keyframes slide-up{
+  0%{
+    transform: translateY(100%);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+   .grid-60{
+  animation: slide-down 0.5s ease;
+}
+
+@keyframes slide-down{
+  0%{
+    transform: translateY(-100%);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
