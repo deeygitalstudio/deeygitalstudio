@@ -306,14 +306,14 @@ p {
   font-size: 10px;
 }
 
-.--overflow{
+.--overflow-hidden{
   overflow: hidden;
 }
-.--overflow{
+.--overflow-visible{
   overflow: visible;
 }
-.--overflow{
-  overflow: auto;;
+.--overflow-auto{
+  overflow: auto;
 }
 
 
