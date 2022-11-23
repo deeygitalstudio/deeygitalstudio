@@ -1,0 +1,118 @@
+.box{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    width: 30rem;
+    height: 35rem;
+    background-color: rgb(13, 1, 103);
+    margin: 0 auto;
+    padding: 1.5rem;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+.screen{
+    color: rgb(7, 76, 238);
+    background-color: #fff;
+    height: 4.5rem;
+    width: 70%;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    border: 2px solid rgb(28, 163, 208);
+    padding: 16px;
+    overflow: hidden;
+    font-size: 1.6rem;
+
+}
+
+.buttons{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-gap: 5px;
+font-size: 1.6rem;
+
+}
+
+.buttons li{
+    width: 5rem;
+    background-color: #fff;
+    margin: 1rem 0.5rem;
+    padding: 1rem;
+    border-bottom: 1px solid rgb(233, 132, 17);
+    color: rgb(41, 5, 248);
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.1s;
+    border-radius: 5px;
+}
+
+.buttons li:hover{
+  background-color: rgb(0, 106, 236);
+  color: #fff;
+}
+
+
+.buttons .equals{
+    background-color: orangered;
+    color: #fff;
+}
+
+.erase{
+    width: 20%;
+    height: 4.5rem;
+    background-color: orangered;
+    padding: 1rem;
+    position: absolute;
+    right: 2rem;
+    top: 1.6rem;
+    text-align: center;
+    color: #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.erase:hover{
+    background-color: rgb(0, 106, 236);
+    color: #fff;
+}
+
+
+@media screen and (max-width: 600px) {
+    .wrapper{
+        width: 35rem;
+        height: 35rem;
+        background-color: rgb(13, 1, 103);
+        margin: 0 auto;
+        padding: 1.5rem;
+        border-radius: 5px;
+        position: relative;
+    }
+
+    .buttons li{
+        width: 4rem;
+        background-color: #fff;
+        margin: 1rem 0.5rem;
+        padding: 1rem;
+        border-bottom: 1px solid rgb(233, 132, 17);
+        color: rgb(41, 5, 248);
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.1s;
+        border-radius: 3px;
+    }
+    .buttons li:hover{
+        background-color: rgb(0, 106, 236);
+        color: #fff;
+      }
+
+      .erase:hover{
+        background-color: rgb(0, 106, 236);
+        color: #fff;
+    }
+}
