@@ -158,7 +158,7 @@ else if(!passwordEl.value.match(/([!,@,#,$,%,^,&,*,.,~,,,])/)){
 }
 
 
-btnEl.addEventListener("click", submit)
+btnEl.addEventListener("click", submit);
 
 
 
