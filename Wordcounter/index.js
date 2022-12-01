@@ -1,13 +1,16 @@
-$(document).ready(function(){
-$('#text').on('keyup', function(){
-var countEl = $('#text').val().trim().split(' ');
-$('#count').text(countEl.length);
-})
+const textEl = document.getElementById("text")
+const countEl = document.getElementById("count")
+const clearEl = document.getElementById("clear")
 
-$('#clear').click(function(){
-$('#text').val("");
-$('#count').text('0');
- })
-   
-});
+function characterCount(){
+	countEl.innerHTML = textEl.value.length
+}
 
+
+textEl.addEventListener("keyup", characterCount)
+clearEl.addEventListener("click", clear)
+
+function clear(){
+	textEl.value = "";
+	countEl.innerHTML = "0";
+}
