@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="./w3.css">
-    <link rel="stylesheet" href="./unsemantic-grid-responsive-tablet.css">
+    <title>Sign up Page</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="unsemantic-grid-responsive-tablet.css">
     <script
       src="https://kit.fontawesome.com/1935d064dd.js"
       crossorigin="anonymous"
@@ -15,11 +15,12 @@
 </head>
 <body>
   <div class="container --flex-center --100vh">
-    <div class="w3-light-grey --p" style="width: 800px; max-height: 550px; max-width: 800px">
+    <div class=" All --p" style="width: 800px; max-height: 550px; max-width: 800px">
         <div class="parent">
           <div class="grid-40 w3-blue --overflow-hidden w3-card-4" style="padding: 60px 40px; height: 500px">
-            <h1 class="--text-light --fw-bold --text-left" style="font-size: 30px">Welcome to our Community</h1>
+            <h1 class="--text-light --fw-bold --text-left" style="font-size: 30px;">Welcome to  our Community</h1>
             <p class="--text-p-white --mt --text-left">Clarity gives you the blocks and components you need to create a truly proffessional website</p>
+            <br>
             <br>
             <br>
             <br>
@@ -41,33 +42,201 @@
             </div>
 
           </div>
-          <div class="grid-60 w3-white --overflow-hidden w3-card-4" style="padding: 60px 40px; height: 500px">
+
+          <div class="grid-60 as w3-white  loginform --overflow-hidden w3-card-4" style="padding: 60px 40px; height: 500px">
+            <h1 class="--fw-bold">Join Clarity</h1>
+            <p class="--text-p-black --mt --text-left">Clarity gives you the blocks and components you need to create a truly professional website</p>
+            <div class="--mt2">
+              <form action="" id="contactForm">
+              <label for="" class="--label">Username</label>
+              <input type="text" class="w3-input w3-border w3-round" id="name" required>
+              <label for="" class="--label">Email Address</label>
+              <input type="text" class="w3-input w3-border w3-round" id="email" required>
+              <label for="" class="--label">Password</label>
+              <input type="password" class="w3-input w3-border w3-round" id="password" required>
+            
+            <div class="--flex-between --mt">
+              <div class="--align-center">
+                <input type="checkbox" class="" >
+                <span class="--text-p-black"> Remember me</span>
+              </div>
+              <p class="">Already have an account <span class="w3-text-blue pointer--" id="login">Login</span></p>
+            </div>
+            <button class="w3-btn w3-blue w3-block w3-round w3-small --mt2" id="log">Sign Up</button>
+          </form>
+          </div>
+        </div>
+
+          <div class="grid-60   w3-white --overflow-hidden w3-card-4" style="padding: 60px 40px; height: 500px; display: none" id="signupform">
             <h1 class="--fw-bold">Join Clarity</h1>
             <p class="--text-p-black --mt --text-left">Clarity gives you the blocks and components you need to create a truly proffessional website</p>
             <div class="--mt2">
-              <label for="" class="--label">Fullname</label>
-              <input type="text" class="w3-input w3-border w3-round">
+              <form action="" id="contactForm">
               <label for="" class="--label">Email Address</label>
-              <input type="text" class="w3-input w3-border w3-round">
+              <input type="text" class="w3-input w3-border w3-round" id="email">
               <label for="" class="--label">Password</label>
-              <input type="password" class="w3-input w3-border w3-round">
-            </div>
+              <input type="password" class="w3-input w3-border w3-round" id="password">
+           
             <div class="--flex-between --mt">
               <div class="--align-center">
                 <input type="checkbox" class="">
                 <span class="--text-p-black">Remember me</span>
               </div>
-              <p class="w3-text-blue ">Forgot Password?</p>
+              <p class="w3-text-blue" id="forget" style="cursor: pointer;">Forgot Password?</p>
             </div>
-            <button class="w3-btn w3-blue w3-round w3-small --mt">Sign Up</button>
-            <p class="--mt">Dont have an acoount <span class="w3-text-blue">Create new account</span></p>
+            <button class="w3-btn w3-blue w3-block w3-round w3-small --mt2" id="loged">Login</button>
+            <p class="--mt">Don't have an account <span class="w3-text-blue pointer--" id="signup">Sign up</span></p>
+          </form>
           </div>
         </div>
+
+
+            <div class="grid-60   w3-white --overflow-hidden w3-card-4" style="padding: 60px 40px; height: 500px; display: none" id="reset">
+              <h1 class="--fw-bold">Join Clarity</h1>
+              <p class="--text-p-black --mt --text-left">Clarity gives you the blocks and components you need to create a truly proffessional website</p>
+              <div class="--mt2">
+                <form action="" id="contactForm">
+                <label for="" class="--label">Enter your email</label>
+                <input type="text" class="w3-input w3-border w3-round" id="password">
+              
+              <div class="--flex-between --mt">
+                <div class="--align-center">
+                  <span class="--text-p-black">We will send you a link</span>
+                </div>
+              
+              </div>
+              <button class="w3-btn w3-blue w3-block w3-round w3-small --mt2" id="submit" type="submit">Reset password</button>
+              <p class="--mt">Don't have an account <span class="w3-text-blue pointer--" id="back">Back to login</span></p>
+            </form>
+            </div>
+          </div>
+          
+      </div>
     </div>
-  </div>
+    </div>
+  
+  <script type="module">
+  
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
+    import { getDatabase, set, ref, update } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-database.js";
+    import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged,  signOut  } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-auth.js";
+   
+    const firebaseConfig = {
+      apiKey: "AIzaSyBSVJmaD1EUqWOAevqjF9Y5Srhk0GH-4XI",
+      authDomain: "signauth-8c3ca.firebaseapp.com",
+      databaseURL: "https://signauth-8c3ca-default-rtdb.firebaseio.com",
+      projectId: "signauth-8c3ca",
+      storageBucket: "signauth-8c3ca.appspot.com",
+      messagingSenderId: "727967882573",
+      appId: "1:727967882573:web:4af2937b8917fa7f626b04"
+    };
+  
+    
+    const app = initializeApp(firebaseConfig);
+    const database = getDatabase(app);
+    const auth = getAuth();
+
+
+    const logEl = document.getElementById("log");
+    const logedEl = document.getElementById("loged");
+
+
+    logEl.addEventListener("click", (e) => {
+      e.preventDefault();
+   
+   const nameEl = document.getElementById("name").value;
+   const emailEl = document.getElementById("email").value;
+   const passwordEl = document.getElementById("password").value;
+   
+  
+   
+      createUserWithEmailAndPassword(auth, emailEl, passwordEl, nameEl)
+     .then((userCredential) => {
+       // Signed in 
+       const user = userCredential.user;
+
+      set(ref(database, 'users/' + user.uid),{
+        name: nameEl,
+        email: emailEl,
+        password: passwordEl,
+      
+      })
+
+       alert('User Created')
+       // ...
+     })
+     .catch((error) => {
+       const errorCode = error.code;
+       const errorMessage = error.message;
+   
+       alert(errorMessage)
+       // ..
+     });
+    })
+
+
+logedEl.addEventListener('click', (e) =>{
+  e.preventDefault();
+ const emailEl = document.getElementById("email").value;
+ const passwordEl = document.getElementById("password").value;
+
+  signInWithEmailAndPassword(auth, emailEl, passwordEl)
+  .then((userCredential) => {
+    // Signed in 
+    const user = userCredential.user;
+
+    const dt = new Date();
+    update(ref(database, 'users/' + user.uid),{
+     last_login: dt,
+    
+    })
+     
+    alert('User signed in successfully');
+    // ...
+  })
+  .catch((error) => {
+    const errorCode = error.code;
+    const errorMessage = error.message;
+
+
+    alert(errorMessage);
+
+})
+
+});
+
+const user = auth.currentUser;
+
+onAuthStateChanged(auth, (user) => {
+  if (user) {
+    // User is signed in, see docs for a list of available properties
+    // https://firebase.google.com/docs/reference/js/firebase.User
+    const uid = user.uid;
+    // ...
+  } else {
+    // User is signed out
+    // ...
+  }
+});
+
+logout.addEventListener('click', () =>{
+  signOut(auth).then(() => {
+    // Sign-out successful.
+    alert('user is now signed out')
+  }).catch((error) => {
+    // An error happened.
+    const errorCode = error.code;
+    const errorMessage = error.message;
+
+
+    alert(errorMessage);
+  });
+})
+
+  </script>
  
 
-    <script src="Jquery.js"></script>
+  <script src="Jquery.js"></script>
   <script src="index.js"></script>
  
 </body>
