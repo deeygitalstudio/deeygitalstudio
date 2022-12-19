@@ -720,7 +720,7 @@ if(!score){
 scoreEL.innerHTML = `Score: ${score}`;
 
 formEl.addEventListener('submit', ()=>{
-    const userAns = +inputEl.value
+    const userAns = +inputEl.value;
     console.log(userAns);
     if (userAns === correctAns){
         score++;
