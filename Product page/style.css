@@ -113,6 +113,13 @@ margin-left: 16px;
 
     .wrapper{
         height: 100%;
+        overflow: hidden;
+    }
+
+    .main header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 }
 
@@ -124,7 +131,7 @@ margin-left: 16px;
 
 
 .content  .details{
-  padding: 4rem 3rem;
+  padding: 3rem 3rem;
   overflow: hidden;
 }
 
