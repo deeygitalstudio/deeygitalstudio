@@ -1,0 +1,187 @@
+.wrapper{
+    width: 70rem;
+    background-color: rgb(255, 255, 255);
+    height: 40rem;
+}
+
+#upper .grid-20 h1{
+    font-size: 13px;
+    font-weight: 800;
+    color: black !important;
+   
+    
+}
+
+header{
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+
+
+}
+
+
+ .wrapper  #upper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0;
+    
+}
+
+sup{
+    margin-left: 2px;
+}
+
+
+
+#upper .grid-50 ul{
+    display: flex;
+    flex: 1;
+    align-items: center;
+   justify-content: center;
+    
+
+}
+
+#upper .grid-50 ul li{
+ margin: 0 20px;
+
+}
+
+#upper .grid-50 ul li a{
+ font-size: 10px;
+ color: rgb(138, 138, 138);
+ font-weight: 400;
+ text-decoration: none;
+ transition: all 0.2s !important;
+}
+
+#upper .grid-50 ul li a:hover{
+
+        color: var(--color-dark);
+        font-size: 13px;
+      
+      
+}
+
+#upper .grid-30{
+display: flex;
+align-items: center;
+justify-content: flex-end;
+
+
+}
+
+.grid-30 img{
+margin-left: 16px;
+
+}
+
+.grid-30 .fa{
+    color: rgb(138, 138, 138);
+
+}
+
+@media screen and (max-width: 600px){
+    .anc{
+        display: none;
+    }
+    
+
+    .grid-30{
+        display: none;
+    }
+
+    .grid-30 h1{
+        margin-top: 20px;
+    }
+    .content .pic{
+        overflow: hidden;
+        max-height: 700px;
+        padding-top: 0;
+
+    }
+    .content .details{
+        overflow: hidden;
+        max-height: 600px;
+
+    }
+
+    .wrapper{
+        height: 100%;
+    }
+}
+
+
+.grid-50 h1{
+    font-weight: 600;
+    color: black !important;
+}
+
+
+.content  .details{
+  padding: 4rem 3rem;
+  overflow: hidden;
+}
+
+.grid-50 h5{
+    font-weight: 600;
+    font-size: 12px;
+    color: rgb(255, 213, 0);
+}
+
+.grid-50 .price{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.grid-50 .price h1{
+    margin-right: 15px;
+    font-weight: 600;
+    font-size: 35px;
+    color: black !important;
+}
+
+.grid-50 .price span{
+  background-color:rgb(255, 213, 0);
+  color: #fff;
+  padding: 3px;
+  border-radius: 3px;
+  font-size: 10px;
+}
+
+.grid-50 .line {
+    text-decoration: line-through;
+}
+
+
+.grid-50 .cart .inc span {
+    background-color: rgb(254, 254, 254);
+    padding: 3px 8px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(102, 102, 102);
+    cursor: pointer;
+   
+}
+
+.grid-50 .cart .inc {
+    margin-right: 20px;
+}
+
+.grid-50 .cart button {
+    color: #fff !important;
+    font-weight: 400;
+    
+}
+
+
+.content img{
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
