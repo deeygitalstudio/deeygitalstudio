@@ -1,6 +1,6 @@
 
 window.onload = () => {
-    swal("This project is just to test my basic javascript skills")
+    swal("This project is created by akinbohun Ifedayo, just to test my basic javascript skills")
 }
 
 const countEL = document.getElementById("count");
