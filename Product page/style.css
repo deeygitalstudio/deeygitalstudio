@@ -12,14 +12,7 @@
     
 }
 
-header{
-display: flex;
-align-items: center;
-justify-content: center;
-overflow: hidden;
 
-
-}
 
 
  .wrapper  #upper{
@@ -92,7 +85,7 @@ margin-left: 16px;
     }
     
 
-    .grid-30{
+   #upper .grid-30{
         display: none;
     }
 
