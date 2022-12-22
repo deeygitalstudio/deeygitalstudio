@@ -1,6 +1,6 @@
 window.onload = () => {
-    swal("This project is created by akinbohun Ifedayo, just to test my basic javascript skills")
-};
+    swal("This project is just to test my basic javascript skills")
+}
 
 const countEL = document.getElementById("count");
 const increaseEL = document.getElementById("increase");
@@ -30,9 +30,6 @@ increaseEL.addEventListener('click', () => {
 decreaseEL.addEventListener('click', () => {
     countEL.textContent--;
   
-    if(countEL <= 1){
-        alert("Please");
-    }
 })
 
 btnEL.addEventListener('click', () => {
@@ -45,7 +42,7 @@ btnEL.addEventListener('click', () => {
     if(countEL.textContent <= 0){
         swal('Please select the amount you want to buy')
     }else{
-        swal(countEL.textContent +   'item(s) has been added to cart and the amount is ' + amountEL.innerHTML)
+        swal(countEL.textContent + ' item(s) has been added to cart and the amount is ' + amountEL.innerHTML)
     }
 });
 
