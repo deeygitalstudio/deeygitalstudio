@@ -95,19 +95,19 @@ margin-left: 16px;
     .content .pic{
         overflow: hidden;
         max-height: 700px;
-        padding-top: 0;
+        padding-top: 10px;
 
     }
     
     .image1, .image2, .image3, .image4{
-        width: 100%
+        width: 100%;
     }
     
     .content .details{
         overflow: hidden;
         max-height: 600px;
          
-        padding: 1rem 1rem
+        padding: 10px 1rem;
     }
 
     .wrapper{
@@ -190,4 +190,5 @@ margin-left: 16px;
 .content img{
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    width:100%
 }
