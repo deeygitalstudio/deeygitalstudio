@@ -7,7 +7,7 @@ sliderEL.addEventListener("click", () => {
     if(!checkbox.checked){
         priceEL.textContent = "$160.00 /yearly";
         }else{
-            priceEL.textContent;
+            priceEL.textContent = "$16.00 /monthly";
         
          }
     
