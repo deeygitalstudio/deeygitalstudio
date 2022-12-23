@@ -1,0 +1,121 @@
+.box h3{
+    font-size: 1rem;
+    color: grey;
+}
+
+.box h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.box h1 span{
+    font-size: 1rem;
+    color: grey;
+}
+
+.progress-bars{
+    height: 2px;
+    width: 100%;
+    background-color: grey;
+}
+
+.progresss{
+    width: 50%;
+    height: 2px;
+    background-color: rgb(14, 141, 226);
+}
+
+.switch {
+    display: inline-block;
+    height: 1rem;
+    position: relative;
+    width: 2rem;
+  }
+  
+  .switch input {
+    display: none;
+  }
+  
+  .slider {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #ccc;
+    cursor: pointer;
+    transition: all 0.4s;
+  }
+  
+  .slider::before {
+    content: "";
+    position: absolute;
+    left: 2px;
+    bottom: 1px;
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    transition: all 0.4s;
+  }
+  
+  input:checked + .slider {
+    background: #4edf55;
+  }
+  
+  input:checked + .slider::before {
+    transform: translateX(15px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+    
+  }
+  .slider.round::before {
+    border-radius: 50%;
+  }
+
+  .check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .check > * {
+    margin: 0 3px;
+  }
+
+  .check p{
+   font-size: 0.7rem;
+  }
+
+  .check p span{
+   color: red;
+   font-size: 0.5rem;
+   margin-left: 5;
+  }
+
+  .align p{
+    text-align: left !important;
+    margin-top: 10px;
+  }
+
+  .align .fa{
+    text-align: left !important;
+    margin-right: 5px;
+    color: #4edf55;
+  }
+
+  main{
+    padding: 8rem 0 !important;
+  }
+
+  @media screen and (max-width: 600px) {
+    .box{
+      width: 22rem !important;
+      padding: 1rem;
+    }
+
+    main h1{
+        font-size: 1.5rem;
+    }
+  }
