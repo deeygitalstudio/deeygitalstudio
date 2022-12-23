@@ -120,6 +120,10 @@ main p{
       padding: 0.8rem;
     }
 
+.price{
+Font-size: 1rem;
+}
+
     main h1{
         font-size: 1.4rem;
     }
