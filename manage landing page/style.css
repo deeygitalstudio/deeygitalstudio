@@ -1,0 +1,120 @@
+@media screen and (max-width: 600px) {
+    .row h1{
+        font-size: 2rem !important;
+        text-align: center;
+        margin: 0 auto !important;
+        margin-bottom: 2rem !important;
+    }
+    .row p{
+        font-size: 16px !important;
+        text-align: center;
+        margin: 0 auto !important;
+        margin-bottom: 2rem !important;
+    }
+     .button{
+         display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .num p{
+        font-size: 0.7rem !important;
+        font-weight: lighter;
+        text-align: center;
+    }
+
+    .num2{
+        text-align: center;
+        margin: 0 auto !important;
+    }
+    .num2 h4{
+        text-align: center;
+        margin: 0 auto !important;
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .num2 p{
+        margin-top: 1rem !important;
+        text-align: center;
+    }
+    
+    .ptags{
+        margin: 15px 0px;
+    }
+
+    .mans{
+        margin-bottom: 15px;
+    }
+    .bot{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .row h1{
+        font-size: 2rem !important;
+       
+    }
+    .row p{
+        font-size: 13px !important;
+    }
+  
+}
+
+.row p{
+    font-size: 0.9rem !important;
+    color: rgb(98, 98, 98) !important;
+}
+
+.btn{
+            
+    background-color: rgb(250, 92, 24) !important ;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+.num{
+    background-color: rgb(250, 92, 24) !important ;
+    color: #fff;
+    padding: 5px 10px;
+   
+}
+
+.num p{
+    font-size: 0.9rem !important;
+    font-weight: lighter;
+}
+
+.thirds{
+    background-color: rgb(250, 92, 24) !important ;  
+    height: 1rem;
+}
+
+.icons img{
+    width: 15px;
+    margin-left: 10px;
+}
+
+.man{
+    width: 130px;
+}
+
+.ptags p{
+    color: #fff !important;
+}
+
+.input span{
+    background-color: rgb(250, 92, 24) !important;
+    color: #fff !important;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+}
