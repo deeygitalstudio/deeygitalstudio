@@ -8,6 +8,11 @@
     font-weight: 600;
 }
 
+main p{
+    font-size: 0.9rem !important;
+   
+}
+
 .box h1 span{
     font-size: 1rem;
     color: grey;
@@ -112,10 +117,25 @@
   @media screen and (max-width: 600px) {
     .box{
       width: 22rem !important;
-      padding: 1rem;
+      padding: 0.8rem;
     }
 
+.price{
+Font-size: 1rem;
+}
+
     main h1{
-        font-size: 1.5rem;
+        font-size: 1.4rem;
+    }
+    main p{
+        font-size: 0.8rem;
+        text-align: center!important ;
+    }
+    .house{
+        flex-direction: column;
+    }
+
+    .house button{
+        width: 100%;
     }
   }
