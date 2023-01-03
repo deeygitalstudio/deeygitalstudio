@@ -1,0 +1,164 @@
+@media screen and (max-width: 600px) {
+    .buttonss{
+        width: 15%;
+        height: 50px;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+    
+    }
+    .buttonss img{
+        width: 50px;
+        height: 45px;
+    
+    }
+
+    .buttons{
+        width: 30%;
+        height: 50px;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        margin-bottom: 20px;
+        visibility: hidden;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .buttonss{
+        width: 20%;
+        height: 50px;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+    
+    }
+    .buttonss img{
+        width: 50px;
+        height: 45px;
+    }
+
+    .buttons{
+        width: 30%;
+        height: 50px;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+        display: flex;
+        visibility: hidden;
+    }
+    
+}
+
+
+.backg{
+background-image: url(./images/desktop-image-hero-1.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    transition: all 0.3s ease-in-out;
+}
+
+.def h1{
+    font-weight: bold;
+    font-size: 2.5rem !important;
+    
+}
+
+.def p{
+   font-size: 0.9rem;
+   margin-top: 2rem;
+   line-height: 1.5rem;
+
+}
+.down p{
+   font-size: 0.9rem;
+   line-height: 1.5rem;
+
+}
+
+.navbar-toggler {
+    color: #fff !important;
+}
+
+
+
+ a{
+    color: #fff !important;
+    font-size: 0.8rem !important;
+    
+}
+
+.def{
+    padding: 4rem 2rem!important;
+}
+.sec{
+    height: 500px;
+    padding: 0;
+}
+
+.buttons img{
+    width: 50px;
+    height: 45px;
+}
+
+.buttonss img{
+    width: 50px;
+    height: 45px;
+}
+
+.buttons{
+    width: 30%;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.buttonss{
+    width: 20%;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    
+
+}
+
+.def img{
+    width: 50px;
+    margin-left: 20px;
+}
+
+.def span{
+    letter-spacing: 8px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.down h1{
+    font-size: 20px;
+    margin-top: 3rem;
+    text-align: left;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+
+.layer2{
+    display: none;
+}
+
+.layer3{
+    display: none;
+}
+
+.navbar-brand  {
+    font-size: 1rem !important;
+    font-weight: 600;
+}
