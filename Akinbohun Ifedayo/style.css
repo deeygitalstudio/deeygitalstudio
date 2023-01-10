@@ -278,8 +278,11 @@ font-size: 12px!important;
   font-size: 2rem;
   margin: 2rem 1rem;
 
-
 }
+
+ .det h5{
+     font-size: 0.8rem !important;
+    }
 
 footer{
   width: 100%;
