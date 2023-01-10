@@ -51,6 +51,11 @@ font-size: 12px!important;
     max-width: 400px;
 }
 
+ #more {
+  display: none;
+}
+
+
 .cim{
   width: 100% !important;
     max-width: 800px !important;
