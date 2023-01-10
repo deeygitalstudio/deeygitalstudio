@@ -195,3 +195,26 @@ var scroll = new SmoothScroll('a[href*="#"]', {
 	speed: 1000,
 	speedAsDuration: true
 })
+
+
+const readEl = document.getElementById("read");
+function showText() {
+  var dotsEl = document.getElementById("dots");
+  var moreTextEl = document.getElementById("more");
+  var abtEl = document.getElementById("abt");
+
+
+  if (dotsEl.style.display === "none") {
+    dotsEl.style.display = "inline";
+    readEl.innerHTML = "Read more";
+    moreTextEl.style.display = "none";
+    abtEl.style.display = "block";
+  } else {
+    dotsEl.style.display = "none";
+    readEl.innerHTML = "Read less";
+    moreTextEl.style.display = "inline";
+    abtEl.style.display = "none";
+  }
+}
+
+readEl.addEventListener("click", showText)
