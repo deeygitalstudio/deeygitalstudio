@@ -136,10 +136,11 @@ font-size: 12px!important;
  
  }
 
- #error{
+ #error, #error1 {
   color: rgb(0, 198, 92) !important; 
   font-size: 1.5rem !important;
  }
+
 
 
  .form2{
