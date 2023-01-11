@@ -102,7 +102,7 @@ var time = 6000; // time in millie seconds
 //images
 
 images[0] = "linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(image/1 (2).jpg)";
-images[1] = "linear-gradient(rgba(0, 0,  0, 0.7),rgba(0, 0, 0, 0.7)), url(./Image/2)";
+images[1] = "linear-gradient(rgba(0, 0,  0, 0.7),rgba(0, 0, 0, 0.7)), url(./image/2)";
 images[2] = "linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./image/3)";
 images[3] = "linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(image/54.jpg)";
 //function
