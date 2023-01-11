@@ -101,10 +101,10 @@ var time = 6000; // time in millie seconds
 
 //images
 
-images[0] = "linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./image/software-development-6523979.jpg)";
-images[1] = "linear-gradient(rgba(0, 0,  0, 0.7),rgba(0, 0, 0, 0.7)), url(./Image/code-944499_960_720.jpg)";
-images[2] = "linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./image/laptop-2620118.jpg)";
-images[3] = "linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./image/software-developer-6521720_960_720.jpg)";
+images[0] = "linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_960_720.jpg)";
+images[1] = "linear-gradient(rgba(0, 0,  0, 0.7),rgba(0, 0, 0, 0.7)), url(https://cdn.pixabay.com/photo/2020/01/26/20/14/computer-4795762_960_720.jpg)";
+images[2] = "linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(https://cdn.pixabay.com/photo/2017/08/10/08/47/laptop-2620118_960_720.jpg)";
+images[3] = "linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_960_720.jpg)";
 //function
 
 function changeImage() {
