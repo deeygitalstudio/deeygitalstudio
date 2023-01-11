@@ -8,6 +8,9 @@
 body{
     background: #007eec;
     font-size: 14px;
+    overflow-y: hidden; /* has to be scroll, not auto */
+-webkit-overflow-scrolling: touch;
+overflow-x: hidden !important;
 }
 
 .container{

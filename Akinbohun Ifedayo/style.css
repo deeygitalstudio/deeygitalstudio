@@ -14,6 +14,12 @@
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+     opacity: 0;
+  z-index: 1;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
 
 
 }
@@ -51,6 +57,11 @@ font-size: 12px!important;
     max-width: 400px;
 }
 
+ #more {
+  display: none;
+}
+
+
 .cim{
   width: 100% !important;
     max-width: 800px !important;
@@ -62,6 +73,7 @@ font-size: 12px!important;
   text-align: center;
   margin-bottom: 3rem;
 }
+
  .container h4{
     line-height: 3rem;
     color: rgb(105, 105, 105);
@@ -72,6 +84,12 @@ font-size: 12px!important;
 
  .deey{
     padding: 4rem 0 !important;
+     font-weight: 400 !important;
+ }
+
+ .deey h4{
+     color: #333 !important;
+     font-weight: 400 !important;
  }
 
  .skills h1{
@@ -124,10 +142,11 @@ font-size: 12px!important;
  
  }
 
- #error{
+ #error, #error1 {
   color: rgb(0, 198, 92) !important; 
   font-size: 1.5rem !important;
  }
+
 
 
  .form2{
@@ -222,6 +241,11 @@ font-size: 12px!important;
   margin-top: 2rem;
   padding: 2rem;
  }
+      
+      .fme{
+  font-size: 1.5rem!important;
+  margin-bottom: 3rem;
+}
   }
 
 
@@ -253,7 +277,7 @@ font-size: 12px!important;
 
 
 .fme{
-  font-size: 3rem!important;
+  font-size: 1.5rem!important;
   margin-bottom: 3rem;
 }
 .social-links a{
@@ -261,8 +285,11 @@ font-size: 12px!important;
   font-size: 2rem;
   margin: 2rem 1rem;
 
-
 }
+
+ .det h5{
+     font-size: 0.8rem !important;
+    }
 
 footer{
   width: 100%;
@@ -275,4 +302,7 @@ header {
   width: 100%;
   top: 0;
   left: 0;
+}
+footer h3 {
+  font-size: 1rem!important;
 }

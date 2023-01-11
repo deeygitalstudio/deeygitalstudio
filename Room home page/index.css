@@ -104,6 +104,9 @@ body {
   line-height: 1.5;
   font-size: 1.2rem;
   font-family: 'poppins', 'Open Sans', sans-serif;
+  overflow-y: hidden; /* has to be scroll, not auto */
+-webkit-overflow-scrolling: touch;
+overflow-x: hidden !important;
 }
 
 

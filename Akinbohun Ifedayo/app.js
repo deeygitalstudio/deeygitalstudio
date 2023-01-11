@@ -101,10 +101,10 @@ var time = 6000; // time in millie seconds
 
 //images
 
-images[0] = "linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./image/software-development-6523979.jpg)";
-images[1] = "linear-gradient(rgba(0, 0,  0, 0.7),rgba(0, 0, 0, 0.7)), url(./Image/code-944499_960_720.jpg)";
-images[2] = "linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./image/laptop-2620118.jpg)";
-images[3] = "linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./image/software-developer-6521720_960_720.jpg)";
+images[0] = "linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./image/1 (2).jpg)";
+images[1] = "linear-gradient(rgba(0, 0,  0, 0.7),rgba(0, 0, 0, 0.7)), url(./image/2.jpg)";
+images[2] = "linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./image/3.jpg)";
+images[3] = "linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./image/54.jpg)";
 //function
 
 function changeImage() {
@@ -113,7 +113,7 @@ function changeImage() {
     if (i < images.length - 1) {
         i++;
     } else {
-        i = -1;
+        i = 0;
     }
     setTimeout('changeImage()', time);
 }
@@ -195,3 +195,26 @@ var scroll = new SmoothScroll('a[href*="#"]', {
 	speed: 1000,
 	speedAsDuration: true
 })
+
+
+const readEl = document.getElementById("read");
+function showText() {
+  var dotsEl = document.getElementById("dots");
+  var moreTextEl = document.getElementById("more");
+  var abtEl = document.getElementById("abt");
+
+
+  if (dotsEl.style.display === "none") {
+    dotsEl.style.display = "inline";
+    readEl.innerHTML = "Read more";
+    moreTextEl.style.display = "none";
+    abtEl.style.display = "block";
+  } else {
+    dotsEl.style.display = "none";
+    readEl.innerHTML = "Read less";
+    moreTextEl.style.display = "inline";
+    abtEl.style.display = "none";
+  }
+}
+
+readEl.addEventListener("click", showText)
