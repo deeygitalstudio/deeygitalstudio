@@ -102,7 +102,7 @@ var time = 6000; // time in millie seconds
 //images
 
 images[0] = "linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./image/1 (2).jpg)";
-images[1] = "linear-gradient(rgba(0, 0,  0, 0.7),rgba(0, 0, 0, 0.7)), url(./image/2.jpg)";
+images[1] = "linear-gradient(rgba(0, 0,  0, 0.7),rgba(0, 0, 0, 0.7)), url(./Image/2.jpg)";
 images[2] = "linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./image/3.jpg)";
 images[3] = "linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(./image/54.jpg)";
 //function
@@ -113,7 +113,7 @@ function changeImage() {
     if (i < images.length - 1) {
         i++;
     } else {
-        i = 0;
+        i = -1;
     }
     setTimeout('changeImage()', time);
 }
@@ -194,8 +194,7 @@ click1El.addEventListener('click', () => {
 var scroll = new SmoothScroll('a[href*="#"]', {
 	speed: 1000,
 	speedAsDuration: true
-})
-
+});
 
 const readEl = document.getElementById("read");
 function showText() {
@@ -218,3 +217,4 @@ function showText() {
 }
 
 readEl.addEventListener("click", showText)
+
