@@ -2,7 +2,7 @@
 const WordsEl = document.querySelector(".words");
 const cursor = document.querySelector(".cursor");
 
-const wordArray = ["Frontend Developer.", "UI UX Designer.", "Photography and Video Editor.", "Motion Graphics Artist.", "Instructor."];
+const wordArray = ["Frontend Developer.", "UI UX Designer.", "Photography and Video Editor.", "Motion Graphics Artist.", "Instructor.", "Volunteer."];
 let wordArrayIndex = 0;
 let letterIndex = 0;
 
