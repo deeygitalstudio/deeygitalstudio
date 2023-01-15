@@ -58,7 +58,7 @@ img{
     border-radius: 5px;
     text-align: center;
     overflow: hidden;
-    padding: 2rem;
+    padding: 0 2rem;
 }
 
 .counter-div > *{
