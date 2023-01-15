@@ -84,7 +84,13 @@ img{
     cursor: pointer;
 }
 
-
+.buttoms{
+ display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  
+}
 
 button.subtract{
     background-color: var(--color-sec);
