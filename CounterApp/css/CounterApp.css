@@ -51,12 +51,14 @@ img{
 
 
 .counter-div{
-    width: 40rem;
+    max-width: 450px;
     border: 1px solid --(grey);
     background-color: var(--light-blue);
     color: var(--white);
     border-radius: 5px;
     text-align: center;
+    overflow: hidden;
+    padding: 0 2rem;
 }
 
 .counter-div > *{
@@ -67,22 +69,28 @@ img{
 }
 
 .count{
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 
 .buttons button{
     padding: 1rem;
     margin: 0 1rem;
-    font-size: 1.5rem;
+    font-size: 0.8rem;
     border: none;
     outline: none;
     border-radius: 3px;
-    font-weight: 700;
+    font-weight: 400;
     cursor: pointer;
 }
 
-
+.buttoms{
+ display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  
+}
 
 button.subtract{
     background-color: var(--color-sec);
