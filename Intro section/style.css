@@ -7,6 +7,10 @@
     margin-top: 80px;
 }
 
+.image img{
+    width: 400px;
+}
+
 .nav-link{
     font-size: 13px!important;
     color: black!important;
@@ -22,6 +26,10 @@
     padding: 40px 90px;
 }
 
+.text h1{
+    font-size: 64px;
+}
+
 #features img{
     width: 10px;
     margin-right: 5px;
@@ -33,5 +41,28 @@
     .text{
         padding: 0;
         margin-bottom: 40px!important;
+    }
+}
+
+
+@media  screen and (max-width: 600px) {
+    .text h1{
+        font-size: 40px;
+    }
+
+    .text{
+        padding: 0 10px!important;
+    }
+    .logos img{
+        width: 60px;
+        margin-right: 25px;
+    }
+
+    .image img{
+        width: 350px;
+    }
+
+    .image{
+        padding: 0 10px!important;
     }
 }
