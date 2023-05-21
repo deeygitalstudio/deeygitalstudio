@@ -92,7 +92,7 @@ text-shadow: 1px 1px 2px rgba(0, 0, 0, .7);
     background-color: #001e4d;
     width: 7px;
     position: absolute;
-    height: 130px;
+    height: 120px;
     transform-origin: bottom center;
     bottom: 50%;
     z-index: 3;
@@ -110,3 +110,14 @@ text-shadow: 1px 1px 2px rgba(0, 0, 0, .7);
     width: 1px;
 }
 
+.digital{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.digital span{
+    font-size: 20px;
+    font-weight: 600;
+    
+}
