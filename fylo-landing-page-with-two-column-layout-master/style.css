@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,600;0,700;0,800;0,900;1,100;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+
+.navbar-brand img{
+    width: 100px;
+}
+
+.navbar-nav .nav-link{
+    font-size: 14px!important;
+    
+  
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.4;
+ 
+}
+.title2{
+    font-size: 25pc;
+}
+
+
+
+.ps{
+
+    
+}
+
+.form input{
+    width: 70%;
+    
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.sects{
+    background-image: url(./images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.link{
+     
+    color: blue;
+    font-size: 12px!important;
+   
+}
+.links .fa{
+
+    color: white;
+    font-size: 12px!important;
+    padding: 5px;
+    border: 1px solid white;
+     border-radius: 50%;
+     margin: 0 5px;
+     height: 35px;
+     width: 35px;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     display: flex;
+   
+}
+.profile{
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    overflow-y: hidden;
+    background-color: white;
+
+}
+
+.profile img{
+    width: 20px;
+}
+.profiles img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.names h5{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.sec{
+    background-color:hsl(238, 22%, 44%) ;
+
+}
+
+.ret h1 {
+    color: white!important;
+}
+.ret p {
+    color: white!important;
+}
+
+.rett span{
+    font-size: 10px;
+    color: white;
+}
+
+.foot{
+    background-color: hsl(243, 87%, 12%);
+}
+
+.phone img{
+    width: 15px;
+    margin-right: 10px;
+    height: 15px;
+}
+
+
+.phone p{
+    color: white;
+    font-size: 11px;
+}
+.mail p{
+    color: white;
+    font-size: 11px;
+}
+.mail img{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.foot .wl{
+    width: 100px;
+}
+
+.pis p{
+    color: white;
+}
+.piss p{
+    color: white;
+}
+
+.form span{
+    width: 30%;
+    background-color: rgb(31, 38, 252);
+    color: white;
+    text-align: center;
+    margin-left: 5px;
+    padding: 9px 15px;
+    border-radius: 5px;
+    
+}
+
+@media screen and (max-width: 600px){
+    .rett input{
+        width: 100%;
+        
+    }
+    .form input{
+        width: 100%;
+        
+    }
+    .form {
+        flex-direction: column;
+        
+    }
+    .form span{
+        width: 100%;
+        display: block;
+        margin-top: 5px;
+        
+    }
+  
+
+    .rett button{
+        display: block;
+        width: 100%;
+    }
+
+    .wl{
+        margin-bottom: 20px;
+    }
+    .fs{
+        margin-bottom: 20px;
+    }
+    .pis{
+        margin-bottom: 20px;
+    }
+       
+    .piss{
+        margin-bottom: 20px;
+    }
+       
+}
