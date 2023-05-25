@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(223, 31%, 20%);
+}
+
+.bos{
+    width: 90%;
+    max-width: 450px;
+    padding: 20px;
+    margin: 40px auto 0px;
+    position: relative;
+    
+}
+
+.numbers .equals{
+    background-color:hsl(176, 100%, 44%) ;
+}
+
+.cont{
+position: relative;
+width: 90%;
+max-width: 450px;
+padding: 20px;
+margin: 0px auto 20px;
+position: relative;
+}
+
+.head h4{
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+
+}
+
+.cols div{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0 4px;
+}
+
+.purples{
+    background-color:hsl(17, 95%, 51%) ;
+    cursor: pointer;
+    
+}
+.reds{
+    background-color:hsl(30, 98%, 47%) ;
+    cursor: pointer;
+}
+.greys{
+    background-color:hsl(194, 100%, 46%) ;
+    cursor: pointer;
+}
+
+.screen{
+    width: 70%;
+    background-color:  hsl(223, 39%, 12%);
+    height: 4.5rem;
+    border-radius: 5px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: #fff !important;
+    padding: 20px;
+    width: 70%;
+}
+
+
+.erase{
+    width: 20%;
+    height: 4.5rem;
+    background-color: hsl(176, 100%, 44%);
+    padding: 1rem;
+    position: absolute;
+    right: 2rem;
+    top: 2.7rem;
+    text-align: center;
+    color: #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.screen p{
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600 !important;
+    
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    font-size: 1.6rem !important;
+  
+    
+    }
+    
+    .buttons li{
+        width: 5rem;
+        background-color: #fff;
+        margin: 1rem 0.3rem;
+        padding: 0.5rem 0;
+        border-bottom: 1px solid orangered;
+        color: rgb(27, 23, 54);
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.1s;
+        border-radius: 5px;
+        
+        font-size: 1.5rem !important;
+
+    }  
+    
+    .buttons li:hover{
+      background-color: rgb(0, 106, 236);
+      color: #fff;
+    }
+
+    @media screen and (max-width: 600px) {
+        .buttons li{
+            width: 4rem;
+            background-color: #fff;
+            margin: 1rem 0.3rem;
+            padding: 0.6rem 0;
+            border-bottom: 1px solid orangered;
+            color: rgb(27, 23, 54);
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.1s;
+            border-radius: 5px;
+            font-weight: 400 !important;
+            font-size: 1.6rem !important;
+    
+        }  
+    }
