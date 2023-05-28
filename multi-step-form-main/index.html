@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+  <title>Frontend Mentor | Multi-step form</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="w3.css">
+</head>
+<body class="bd">
+  <div class="cont">
+    <div class="row">
+      <div class="col-sm-4 sd --p2">
+      <div class="swr --p">
+           <div class="--flex --align-center frs">
+            <h4 class="num">1</h4>
+            <div class="--ml2 step">
+              <h5>STEP 1</h5>
+              <h4>YOUR INFO</h4>
+            </div>
+           </div>
+      </div>
+      <div class="swr --p">
+           <div class="--flex --align-center frs">
+            <h4 class="num2">2</h4>
+            <div class="--ml2 step2">
+              <h5>STEP 2</h5>
+              <h4>SELECT PLAN</h4>
+            </div>
+           </div>
+      </div>
+      <div class="swr --p">
+           <div class="--flex --align-center frs">
+            <h4 class="num3">3</h4>
+            <div class="--ml2 step3">
+              <h5>STEP 3</h5>
+              <h4>ADD-ONS</h4>
+            </div>
+           </div>
+      </div>
+      <div class="swr --p">
+           <div class="--flex --align-center frs">
+            <h4 class="num4">4</h4>
+            <div class="--ml2 step4">
+              <h5>STEP 4</h5>
+              <h4>SUMMARY</h4>
+            </div>
+           </div>
+      </div>
+      </div>
+
+      <div class="col-sm-8 sm8">
+        <!-- start -->
+        <div class="wrap1">
+          <h1>Personal Info</h1>
+          <p>Please provide your name, email address, and phone number</p>
+         
+          <div class="input1 --mb">
+            <label for="">Name</label>
+            <input type="text" class="form-control name"  id="name"  placeholder="eg. Akinbohun Ifedayo">
+          </div>
+
+          <div class="input2 --mb">
+            <label for="">Email Address</label>
+            <input type="text" class="form-control email" id="email" placeholder="eg. deeyakin@gmail.com" >
+          </div>
+
+          <div class="input3">
+            <label for="">Password</label>
+            <input type="password" class=" form-control password" id="password"  placeholder="" >
+          </div>
+           <!-- buttons -->
+          <div class="buttons --mt2">
+            <button class="btn btn-primary w3-right btn1">Next step</button>
+          </div>
+        
+        </div>
+
+           
+ <!-- end -->
+
+        <!-- start -->
+        <div class="wrap2">
+          <h1>Select your plan</h1>
+          <p>Please provide your name, email address, and phone number</p>
+           <div class="planwrap --flex --align-center">
+
+          <div class="plan">
+            <img src="./assets/images/icon-arcade.svg" alt="">
+            <h6>Arcade</h6>
+            <p>$9/mo</p>
+            <h6 class="yr1 --text-sm"></h6>
+          </div>
+
+          <div class="plan2">
+            <img src="./assets/images/icon-advanced.svg" alt="">
+            <h6>Advance</h6>
+            <p>$12/mo</p>
+            <h6 class="yr2"></h6>
+          </div>
+
+          <div class="plan3">
+            <img src="./assets/images/icon-pro.svg" alt="">
+            <h6>Pro</h6>
+            <p>$15/mo</p>
+            <h6 class="yr3"></h6>
+          </div>
+
+       </div>
+
+       <div class="check --mt2">
+        <p class="m">Monthly</p>
+        <label for="checkbox" class="switch">
+          <input type="checkbox" id="checkbox" />
+          <div class="slider round"></div>
+        </label>
+        <p class="y">Yearly</p>
+      </div>
+           <!-- buttons -->
+          <div class="buttons --mt2">
+            <button class="btn btn-primary w3-right btn2">Next step</button>
+            <button class="btn  w3-left bbtn1 w3-border">Go back</button>
+          </div>
+
+        </div>
+
+
+
+        <div class="wrap3">
+          <h1>Pick add-ons</h1>
+          <p>Add-ons add to your gaming experience</p>
+           <div class="planwrap1">
+
+          <div class="games --align-center --flex-between">
+            <div class="chmn --flex --align-center">
+            <input type="checkbox" checked="checked" class="--mr2">
+            <div class="mn">
+              <h6>Online service</h6>
+              <p>Access to multiplayer</p>
+            </div>
+          </div>
+              <p class="mrr">+$1/mo</p>
+          </div>
+
+
+          <div class="games1 --align-center --flex-between">
+            <div class="chmn --flex --align-center">
+            <input type="checkbox" checked="checked"  class="--mr2">
+            <div class="mn">
+              <h6>Larger Storage</h6>
+              <p>Extra 1tb of cloud</p>
+            </div>
+          </div>
+              <p class="mrr1">+$2/mo</p>
+          </div>
+          
+          <div class="games2 --mb --align-center --flex-between">
+            <div class="chmn --flex --align-center">
+            <input type="checkbox"  value="checked" class="--mr2">
+            <div class="mn">
+              <h6>Customizable profile</h6>
+              <p>Color theme on your profile</p>
+            </div>
+          </div>
+              <p class="mrr2">+$2/mo</p>
+          </div>
+
+          <div class="checks">
+            <p class="mm">Monthly</p>
+            <label for="checkboxs" class="switchs">
+              <input type="checkbox" id="checkboxs" />
+              <div class="sliders rounds"></div>
+            </label>
+            <p class="yy">Yearly</p>
+          </div>
+
+       </div>
+
+   
+           <!-- buttons -->
+          <div class="buttons --mt2">
+            <button class="btn btn-primary w3-right btn3">Next step</button>
+            <button class="btn  w3-left bbtn2 w3-border">Go back</button>
+          </div>
+
+        </div>
+
+           
+ <!-- end -->
+        
+        <div class="wrap4">
+          <h1>Finishing Up</h1>
+          <p>Double check everything looks OK before confirming</p>
+           <div class="planwrap2">
+        <div class="gamesfn">
+          <div class="--align-center --flex-between">
+            <div class="mn">
+              <h6>Arcade <span class="eee">Monthly</span> </h6>
+              <p>change</p>
+            </div>
+          
+              <p class="mnn eeem">$9/mo</p>
+              
+          </div>
+   
+          <div class="on --align-center --flex-between --mt">
+            <p>Online Service</p>
+            <p class="mnn nrr">+$1/mo</p>
+          </div>
+          <div class="on --align-center --flex-between">
+            <p>Larger storage</p>
+            <p class="mnn nrr1">+$2/mo</p>
+          </div>
+          <div class="on --align-center --flex-between">
+            <p>Total</p>
+            <p class="mnn nrr2">+$120/mo</p>
+          </div>
+        </div>
+        <p class="error w3-text-red w3-center"></p>
+
+          <div class="checkss --mt2">
+            <p class="mrrr">Monthly</p>
+            <label for="checkboxss" class="switchss">
+              <input type="checkbox" id="checkboxss" />
+              <div class="sliderss roundss"></div>
+            </label>
+            <p class="yrrr">Yearly</p>
+          </div>
+
+       </div>
+
+   
+           <!-- buttons -->
+          <div class="buttons --mt2">
+            <button class="btn btn-primary w3-right confirm">Confirm</button>
+            <button class="btn  w3-left w3-border bbtn4">Go back</button>
+          </div>
+
+        </div>
+
+           
+ <!-- end -->
+        <div class="wrap5 --p2">
+          <div class="wrp --center-all">
+         <img src="./assets/images/icon-thank-you.svg" alt="">
+         <h1>Thank You!</h1>
+         <p>Thanks for confirming your subscription, we hope you had fun using our platform, if you ever need support, please feel free to email us at deeygitalstudio@gmail.com</p>
+         <button class="btn btn-primary home --mt2">Home</button>
+        </div>
+      
+
+        </div>
+
+
+ <!-- end -->
+        
+      </div>
+
+    </div>
+     
+  </div>
+    <script src="./app.js"></script>
+<script src="bootstrap.min.js"></script>
+
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js";
+  import { getDatabase, set, ref, update } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-database.js";
+  import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged,  signOut  } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-auth.js";
+
+
+  const firebaseConfig = {
+    apiKey: "AIzaSyCPtatKIW6ZofY4mMfB7PSVfe35OG_ANvg",
+    authDomain: "frontendmentor-6b21e.firebaseapp.com",
+    projectId: "frontendmentor-6b21e",
+    storageBucket: "frontendmentor-6b21e.appspot.com",
+    messagingSenderId: "671395563034",
+    appId: "1:671395563034:web:dc5a22f2d299d69da6b3a3"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const database = getDatabase(app);
+  const auth = getAuth();
+
+
+  const num1El = document.querySelector('.num')
+  const num2El = document.querySelector('.num2')
+  const num3El = document.querySelector('.num3')
+  const num4El = document.querySelector('.num4')
+  const btn1El = document.querySelector('.btn1')
+  const btn2El = document.querySelector('.btn2')
+  const btn3El = document.querySelector('.btn3')
+  const confirmEl = document.querySelector('.confirm')
+  const homeEl = document.querySelector('.home')
+  const bbtn2El = document.querySelector('.bbtn2')
+  const bbtn4El = document.querySelector('.bbtn4')
+  const bbtn1El = document.querySelector('.bbtn1')
+  const wrap1El = document.querySelector('.wrap1')
+  const wrap2El = document.querySelector('.wrap2')
+  const wrap3El = document.querySelector('.wrap3')
+  const wrap4El = document.querySelector('.wrap4')
+  const wrap5El = document.querySelector('.wrap5')
+  const yr1El = document.querySelector('.yr1')
+  const yr2El = document.querySelector('.yr2')
+  const yr3El = document.querySelector('.yr3')
+  const yEl = document.querySelector('.y')
+  const yyEl = document.querySelector('.yy')
+  const mEl = document.querySelector('.m')
+  const mmEl = document.querySelector('.mm')
+  const mrrEl = document.querySelector('.mrr')
+  const mrrrEl = document.querySelector('.mrrr')
+  const yrrrEl = document.querySelector('.yrrr')
+  const mrr1El = document.querySelector('.mrr1')
+  const nrrEl = document.querySelector('.nrr')
+  const nrr1El = document.querySelector('.nrr1')
+  const nrr2El = document.querySelector('.nrr2')
+  const mrr2El = document.querySelector('.mrr2')
+  const eeeEl = document.querySelector('.eee')
+  const eeemEl = document.querySelector('.eeem')
+  
+  const sliderEL = document.querySelector(".slider");
+  const slidersEL = document.querySelector(".sliders");
+  const sliderssEL = document.querySelector(".sliderss");
+  
+  const passwordEL = document.querySelector("#password");
+  const emailEL = document.querySelector("#email");
+  const nameEL = document.querySelector("#name");
+  const errorEL = document.querySelector(".error");
+  
+  
+  sliderEL.addEventListener("click", () => {
+      if(!checkbox.checked){
+          yr1El.textContent = "2 months free";
+          yr1El.style.fontSize = "9px"
+          yr2El.style.fontSize = "9px"
+          yr3El.style.fontSize = "9px"
+          yr2El.textContent = "2 months free";
+          yr3El.textContent = "2 months free";
+          yEl.style.color = "hsl(213, 96%, 18%)"
+          mEl.style.color = "hsl(231, 11%, 63%)"
+          }else{
+              yr1El.textContent = "";
+              yr2El.textContent = "";
+              yr3El.textContent = "";
+              mEl.style.color = "hsl(213, 96%, 18%)"
+              yEl.style.color = "hsl(231, 11%, 63%)"
+           }
+      
+  })  
+  
+  
+  slidersEL.addEventListener("click", () => {
+      if(!checkboxs.checked){
+          mrrEl.innerHTML = "+$10/yr";
+          mrr1El.innerHTML = "+$20/yr";
+          mrr2El.innerHTML = "+$20/yr";
+          mrrEl.style.color = "hsl(231, 11%, 63%)"
+          mrr1El.style.color = "hsl(231, 11%, 63%)"
+          mrr2El.style.color = "hsl(231, 11%, 63%)"
+          mrrEl.style.fontWeight = "400"
+          mrr1El.style.fontWeight = "400"
+          mrr2El.style.fontWeight = "400"
+          yyEl.style.color = "hsl(213, 96%, 18%)"
+          mmEl.style.color = "hsl(231, 11%, 63%)"
+          }else{
+              mrrEl.textContent = "+$1/mo";
+              mrr1El.textContent = "+$2/mo";
+              mrr2El.textContent = "+$2/mo";
+              mrrEl.style.color = "hsl(231, 11%, 63%)"
+              mrr1El.style.color = "hsl(231, 11%, 63%)"
+              mrr2El.style.color = "hsl(231, 11%, 63%)"
+              mrrEl.style.fontWeight = "400"
+              mrr1El.style.fontWeight = "400"
+              mrr2El.style.fontWeight = "400"
+              mmEl.style.color = "hsl(213, 96%, 18%)"
+              yyEl.style.color = "hsl(231, 11%, 63%)"
+           }
+      
+  })  
+  
+  sliderssEL.addEventListener("click", () => {
+      if(!checkboxss.checked){
+          eeeEl.innerHTML = "Yearly";
+          eeemEl.innerHTML = "$90/yr";
+          nrr2El.innerHTML = "+$120/yr";
+          nrr1El.innerHTML = "+$20/yr";
+          nrrEl.innerHTML = "+$10/yr";
+          nrr2El.style.color = "hsl(213, 96%, 18%)";
+          nrrEl.style.color = "hsl(231, 11%, 63%)";
+          nrr1El.style.color = "hsl(231, 11%, 63%)";
+          eeemEl.style.color = "hsl(231, 11%, 63%)";
+          eeemEl.style.fontWeight = "400";
+          nrr2El.style.fontWeight = "bold";
+          nrrEl.style.fontWeight = "400";
+          nrr1El.style.fontWeight = "400";
+          mrr2El.style.fontWeight = "400";
+          yrrrEl.style.color = "hsl(213, 96%, 18%)";
+          mrrrEl.style.color = "hsl(231, 11%, 63%)";
+          }else{
+              eeeEl.textContent = "Monthly";
+              eeemEl.textContent = "+$9/mo";
+              nrr2El.textContent = "+$12/mo";
+              nrrEl.textContent = "+$1/mo";
+              nrr1El.textContent = "+$2/mo";
+              mrr1El.style.color = "hsl(231, 11%, 63%)"
+              mrr2El.style.color = "hsl(231, 11%, 63%)"
+              eeemEl.style.color = "hsl(231, 11%, 63%)"
+              eeemEl.style.fontWeight = "400"
+              nrr1El.style.fontWeight = "400"
+              nrrEl.style.fontWeight = "400"
+              nrr1El.style.fontWeight = "400"
+              mrr2El.style.fontWeight = "400"
+              nrrEl.style.color = "hsl(231, 11%, 63%)";
+              nrr1El.style.color = "hsl(231, 11%, 63%)";
+              nrr2El.style.color = "hsl(213, 96%, 18%)";
+              mrrrEl.style.color = "hsl(213, 96%, 18%)"
+              yrrrEl.style.color = "hsl(231, 11%, 63%)"
+           }
+      
+  })  
+  
+  
+  num2El.addEventListener('click', () => {
+    
+          wrap2El.style.display = 'block'
+          num2El.style.backgroundColor = "hsl(206, 94%, 87%)"
+          num1El.style.backgroundColor = "transparent"
+          num3El.style.backgroundColor = "transparent"
+          num4El.style.backgroundColor = "transparent"
+          num1El.style.border = "1px solid white"
+          num3El.style.border = "1px solid white"
+          num4El.style.border = "1px solid white"
+          num1El.style.color = "white"
+          num3El.style.color = "white"
+          num4El.style.color = "white"
+          wrap1El.style.display = 'none'
+          wrap3El.style.display = 'none'
+          wrap4El.style.display = 'none'
+          wrap5El.style.display = 'none'
+      
+       
+  })
+  
+  bbtn2El.addEventListener('click', () => {
+      wrap2El.style.display = 'block'
+      num2El.style.backgroundColor = "hsl(206, 94%, 87%)"
+      num1El.style.backgroundColor = "transparent"
+      num3El.style.backgroundColor = "transparent"
+      num4El.style.backgroundColor = "transparent"
+      num1El.style.border = "1px solid white"
+      num3El.style.border = "1px solid white"
+      num4El.style.border = "1px solid white"
+      num1El.style.color = "white"
+      num3El.style.color = "white"
+      num4El.style.color = "white"
+      wrap1El.style.display = 'none'
+      wrap3El.style.display = 'none'
+      wrap4El.style.display = 'none'
+      wrap5El.style.display = 'none'
+   
+       
+  })
+  
+  num3El.addEventListener('click', () => {
+      wrap3El.style.display = 'block'
+      num3El.style.backgroundColor = "hsl(206, 94%, 87%)"
+      num1El.style.backgroundColor = "transparent"
+      num4El.style.backgroundColor = "transparent"
+      num2El.style.backgroundColor = "transparent"
+      num1El.style.border = "1px solid white"
+      num2El.style.border = "1px solid white"
+      num1El.style.color = "white"
+      num2El.style.color = "white"
+      wrap1El.style.display = 'none'
+      wrap2El.style.display = 'none'
+      wrap4El.style.display = 'none'
+      wrap5El.style.display = 'none'
+   
+       
+  })
+  
+  bbtn4El.addEventListener('click', () => {
+      wrap3El.style.display = 'block'
+      num3El.style.backgroundColor = "hsl(206, 94%, 87%)"
+      num1El.style.backgroundColor = "transparent"
+      num4El.style.backgroundColor = "transparent"
+      num2El.style.backgroundColor = "transparent"
+      num1El.style.border = "1px solid white"
+      num2El.style.border = "1px solid white"
+      num1El.style.color = "white"
+      num2El.style.color = "white"
+      wrap1El.style.display = 'none'
+      wrap2El.style.display = 'none'
+      wrap4El.style.display = 'none'
+      wrap5El.style.display = 'none'
+   
+       
+  })
+  
+  num4El.addEventListener('click', () => {
+      wrap4El.style.display = 'block'
+      num4El.style.backgroundColor = "hsl(206, 94%, 87%)"
+      num3El.style.backgroundColor = "transparent"
+      num1El.style.backgroundColor = "transparent"
+      num2El.style.backgroundColor = "transparent"
+      num1El.style.border = "1px solid white"
+      num2El.style.border = "1px solid white"
+      num3El.style.border = "1px solid white"
+      num1El.style.color = "white"
+      num2El.style.color = "white"
+      num3El.style.color = "white"
+      wrap1El.style.display = 'none'
+      wrap2El.style.display = 'none'
+      wrap3El.style.display = 'none'
+      wrap5El.style.display = 'none'
+   
+       
+  })
+  
+  confirmEl.addEventListener('click', () => {
+  
+      if(nameEL.value, emailEL.value, passwordEL.value === ""){
+          errorEL.innerHTML = 'Please feel your personal information correctly';
+          setTimeout(() => {
+              errorEL.innerHTML = '';
+          }, 5000);
+          
+          
+      }else{
+  
+  
+          wrap5El.style.display = 'block';
+          num4El.style.backgroundColor = "transparent";
+          num3El.style.backgroundColor = "transparent";
+          num1El.style.backgroundColor = "transparent";
+          num2El.style.backgroundColor = "transparent";
+          num1El.style.border = "1px solid white";
+          num2El.style.border = "1px solid white";
+          num3El.style.border = "1px solid white";
+          num1El.style.color = "white";
+          num2El.style.color = "white";
+          num3El.style.color = "white";
+          wrap1El.style.display = 'none';
+          wrap2El.style.display = 'none';
+          wrap3El.style.display = 'none';
+          wrap4El.style.display = 'none';
+          num1El.style.display = 'none';
+          num2El.style.display = 'none';
+          num3El.style.display = 'none';
+          num4El.style.display = 'none';
+          errorEL.innerHTML = "";  
+  
+          const passwordELs = document.querySelector(".password").value;
+          const emailELs  = document.querySelector(".email").value;
+          const nameELs = document.querySelector(".name").value;
+          
+         
+          
+             createUserWithEmailAndPassword(auth,  emailELs, nameELs,  passwordELs)
+            .then((userCredential) => {
+              // Signed in 
+              const user = userCredential.user;
+       
+             set(ref(database, 'users/' + user.uid),{
+               name: nameELs,
+               email: emailELs,
+               password: passwordELs,
+             
+             })
+       
+              alert('User Created')
+              // ...
+            })
+            .catch((error) => {
+              const errorCode = error.code;
+              const errorMessage = error.message;
+          
+              alert(errorMessage)
+              // ..
+            });
+          
+      }
+      nameEL.value = "";
+      passwordEL.value = "";
+      emailEL.value = "";
+   
+  
+  });
+  
+  homeEl.addEventListener('click', () => {
+      wrap1El.style.display = 'block'
+      num4El.style.backgroundColor = "transparent"
+      num3El.style.backgroundColor = "transparent"
+      num1El.style.backgroundColor = "hsl(206, 94%, 87%)"
+      num2El.style.backgroundColor = "transparent"
+      num2El.style.border = "1px solid white"
+      num3El.style.border = "1px solid white"
+      num4El.style.border = "1px solid white"
+      num1El.style.color = "white"
+      num2El.style.color = "white"
+      num3El.style.color = "white"
+      num4El.style.color = "white"
+      wrap2El.style.display = 'none'
+      wrap3El.style.display = 'none'
+      wrap4El.style.display = 'none'
+      wrap5El.style.display = 'none'
+      num1El.style.display = 'flex'
+      num2El.style.display = 'flex'
+      num3El.style.display = 'flex'
+      num4El.style.display = 'flex'
+  
+  
+   
+       
+  });
+  
+  btn3El.addEventListener('click', () => {
+      wrap4El.style.display = 'block'
+      num4El.style.backgroundColor = "hsl(206, 94%, 87%)"
+      num3El.style.backgroundColor = "transparent"
+      num1El.style.backgroundColor = "transparent"
+      num2El.style.backgroundColor = "transparent"
+      num1El.style.border = "1px solid white"
+      num2El.style.border = "1px solid white"
+      num3El.style.border = "1px solid white"
+      num1El.style.color = "white"
+      num2El.style.color = "white"
+      num3El.style.color = "white"
+      wrap1El.style.display = 'none'
+      wrap2El.style.display = 'none'
+      wrap3El.style.display = 'none'
+      wrap5El.style.display = 'none'
+   
+       
+  });
+  
+  btn2El.addEventListener('click', () => {
+      wrap3El.style.display = 'block'
+      num3El.style.backgroundColor = "hsl(206, 94%, 87%)"
+      num1El.style.backgroundColor = "transparent"
+      num2El.style.backgroundColor = "transparent"
+      num1El.style.border = "1px solid white"
+      num2El.style.border = "1px solid white"
+      num1El.style.color = "white"
+      num2El.style.color = "white"
+      wrap1El.style.display = 'none'
+      wrap2El.style.display = 'none'
+      wrap4El.style.display = 'none'
+      wrap5El.style.display = 'none'
+   
+       
+  });
+  
+  
+  
+  btn1El.addEventListener('click', () => {
+      wrap2El.style.display = 'block'
+      num2El.style.backgroundColor = "hsl(206, 94%, 87%)"
+      num1El.style.backgroundColor = "transparent"
+      num3El.style.backgroundColor = "transparent"
+      num4El.style.backgroundColor = "transparent"
+      num1El.style.border = "1px solid white"
+      num3El.style.border = "1px solid white"
+      num4El.style.border = "1px solid white"
+      num1El.style.color = "white"
+      num3El.style.color = "white"
+      num4El.style.color = "white"
+      wrap1El.style.display = 'none'
+      wrap3El.style.display = 'none'
+      wrap4El.style.display = 'none'
+      wrap5El.style.display = 'none'
+      
+       
+  });
+  
+  num1El.addEventListener('click', () => {
+      wrap1El.style.display = 'block'
+      num1El.style.backgroundColor = "hsl(206, 94%, 87%)"
+      num2El.style.backgroundColor = "transparent"
+      num3El.style.backgroundColor = "transparent"
+      num4El.style.backgroundColor = "transparent"
+      num2El.style.border = "1px solid white"
+      num3El.style.border = "1px solid white"
+      num4El.style.border = "1px solid white"
+      num1El.style.color = "white"
+      num2El.style.color = "white"
+      num3El.style.color = "white"
+      num4El.style.color = "white"
+      wrap2El.style.display = 'none'
+      wrap3El.style.display = 'none'
+      wrap4El.style.display = 'none'
+      wrap5El.style.display = 'none'
+  });
+  
+  
+  bbtn1El.addEventListener('click', () => {
+      wrap1El.style.display = 'block';
+      num1El.style.backgroundColor = "hsl(206, 94%, 87%)";
+      num2El.style.backgroundColor = "transparent";
+      num3El.style.backgroundColor = "transparent";
+      num4El.style.backgroundColor = "transparent";
+      num2El.style.border = "1px solid white";
+      num3El.style.border = "1px solid white";
+      num4El.style.border = "1px solid white";
+      num1El.style.color = "white";
+      num2El.style.color = "white";
+      num3El.style.color = "white";
+      num4El.style.color = "white";
+      wrap2El.style.display = 'none';
+      wrap3El.style.display = 'none';
+      wrap4El.style.display = 'none';
+      wrap5El.style.display = 'none';
+  });
+  
+  
+</script>
+</body>
+</html>

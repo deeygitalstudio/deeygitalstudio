@@ -1,0 +1,604 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open sans';
+}
+
+.bd{
+    background-color: hsl(206, 94%, 87%);
+  
+}
+
+.cont{
+    width: 100%;
+    max-width: 700px;
+    background: white;
+    height: auto;
+    margin: 100px auto 20px;
+    border-radius: 5px;
+    
+
+}
+
+.sd{
+    background-image: url(./assets/images/bg-sidebar-desktop.svg);
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.sm8{
+    height: 450px;
+    overflow: hidden;
+   
+}
+
+.num{
+    background-color: hsl(206, 94%, 87%);
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+    cursor: pointer;
+}
+.num2{
+  border: 1px solid white;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 9px;
+    cursor: pointer;
+}
+.num3{
+    border: 1px solid white;
+    color: white;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+    cursor: pointer;
+}
+.num4{
+    border: 1px solid white;
+    color: white;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+    cursor: pointer;
+}
+
+.num2:hover , .num3:hover , .num4:hover{
+    background-color: hsl(206, 94%, 87%);
+}
+
+.step h5{
+    color:  hsl(231, 11%, 63%);
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.step h4{
+    color:  hsl(0, 0%, 100%);
+    font-size: 11px;
+    font-weight: 600;
+}
+.step2 h5{
+    color:  hsl(231, 11%, 63%);
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.step2 h4{
+    color:  hsl(0, 0%, 100%);
+    font-size: 11px;
+    font-weight: 600;
+}
+.step3 h5{
+    color:  hsl(231, 11%, 63%);
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.step3 h4{
+    color:  hsl(0, 0%, 100%);
+    font-size: 11px;
+    font-weight: 600;
+}
+.step4 h5{
+    color:  hsl(231, 11%, 63%);
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.step4 h4{
+    color:  hsl(0, 0%, 100%);
+    font-size: 11px;
+    font-weight: 600;
+}
+
+ .wrap1{
+    padding: 0 40px;
+    margin: 40px auto 10px;
+    display: block;
+    transition: 0.45s;
+ 
+}
+.wrap2, .wrap3, .wrap4{
+    padding: 0 40px;
+    margin: 40px auto 10px;
+    transition: 0.45s;
+ 
+ 
+}
+
+.plan2 .yr{
+  font-size: 6px;
+}
+
+.wrap1 h1, .wrap2 h1, .wrap3 h1, .wrap4 h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #3f3e3e;
+}
+
+.wrap1 p , .wrap2 p, .wrap3 p, .wrap4 p {
+    font-weight: 400;
+    font-size: 12px;
+    color: hsl(231, 11%, 63%);
+    
+}
+
+
+.input1 label{
+    font-size: 9px;
+    color: #3f3e3e;
+    margin-bottom: 5px;
+}
+
+.input1 input::placeholder{
+    font-size: 9px;
+    color: #aeaeae;
+   
+}
+.input2 label{
+    font-size: 9px;
+    color: #3f3e3e;
+    margin-bottom: 5px;
+}
+
+.input2 input::placeholder{
+    font-size: 9px;
+    color: #aeaeae;
+   
+}
+.input3 label{
+    font-size: 9px;
+    color: #3f3e3e;
+    margin-bottom: 5px;
+}
+
+.input3 input::placeholder{
+    font-size: 9px;
+    color: #aeaeae;
+   
+}
+
+.games, .games1{
+    width: 100%;
+    border: 1px solid hsl(243, 100%, 62%) ;
+    border-radius: 5px;
+    height: 50px;
+    padding: 30px 20px;
+    border-radius: 5px;
+    background-color: hsl(231, 100%, 99%);
+    margin: 7px 0;
+}
+.gamesfn{
+    width: 100%;
+    border: 1px solid hsl(243, 100%, 62%) ;
+    border-radius: 5px;
+    height: 180px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    background-color: hsl(231, 100%, 99%);
+    margin: 7px 0;
+    
+}
+
+.mn p{
+text-decoration: underline;
+}
+
+ .planwrap1 .mnn{
+color: hsl(213, 96%, 18%);
+font-weight: 600;
+}
+ .games2{
+    width: 100%;
+    border: 1px solid hsl(229, 24%, 87%);
+    border-radius: 5px;
+    height: 50px;
+    padding: 30px 20px;
+    border-radius: 5px;
+   
+}
+
+.check p{
+  font-weight: bold;
+  font-size: 11px;
+}
+.checks p{
+  font-weight: bold;
+  font-size: 11px;
+}
+.checkss p{
+  font-weight: bold;
+  font-size: 11px;
+}
+.check .m{
+  color: hsl(213, 96%, 18%);
+}
+
+.checks .mm{
+  color: hsl(213, 96%, 18%);
+}
+
+.plan, .plan2, .plan3{
+    width: 100px;
+    height: 120px;
+    border: 1px solid hsl(243, 100%, 62%) ;
+    border-radius: 5px;
+    padding: 14px 15px;
+    margin: 20px 10px;
+}
+
+ .plan2, .plan3{
+    width: 100px;
+    height: 120px;
+    border: 1px solid hsl(229, 24%, 87%) ;
+    border-radius: 5px;
+    padding: 14px 15px;
+   
+}
+
+.wrap5 .home{
+  margin: 0 auto;
+}
+
+.plan img, .plan2 img, .plan3 img{
+width: 30px;
+margin-bottom: 15px;
+ 
+}
+
+.plan h6, .plan2 h6, .plan3 h6{
+    font-weight: bold;
+    color: hsl(213, 96%, 18%);
+    font-size: 12px;
+}
+.mn h6{
+    font-weight: bold;
+    color: hsl(213, 96%, 18%);
+    font-size: 12px;
+}
+
+.games h6, .games1 h6, .games2 h6{
+    font-weight: bold;
+    color: hsl(213, 96%, 18%);
+    font-size: 12px;
+}
+
+.mn h6{
+    padding: 0;
+}
+
+
+ .wrap2{
+    display: none;
+    
+}
+ .wrap3{
+    display: none;
+    
+}
+ .wrap4{
+    display: none;
+    
+}
+ .wrap5{
+    display: none;
+    
+}
+
+
+
+.planwrap1 .switchs {
+    display: inline-block;
+    height: 1rem;
+    position: relative;
+    width: 2rem;
+  }
+.planwrap2 .switchss {
+    display: inline-block;
+    height: 1rem;
+    position: relative;
+    width: 2rem;
+  }
+  
+ 
+  .switchs input {
+    display: none;
+  }
+  .switchss input {
+    display: none;
+  }
+
+  .planwrap1 .switchs input {
+    display: none;
+  }
+  .planwrap2 .switchss input {
+    display: none;
+  }
+  
+  .planwrap1 .sliders {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color:  hsl(213, 96%, 18%);
+    cursor: pointer;
+    transition: all 0.4s;
+  }
+  .planwrap2 .sliderss {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color:  hsl(213, 96%, 18%);
+    cursor: pointer;
+    transition: all 0.4s;
+  }
+  
+  .planwrap1 .sliders::before {
+    content: "";
+    position: absolute;
+    left: 2px;
+    bottom: 1px;
+    width: 12px;
+    height: 13px;
+    background: #fff;
+    transition: all 0.4s;
+  }
+  
+  .planwrap1 input:checked + .sliders {
+    background:  hsl(213, 96%, 18%);
+  }
+  
+  .planwrap2 .sliderss::before {
+    content: "";
+    position: absolute;
+    left: 2px;
+    bottom: 1px;
+    width: 12px;
+    height: 13px;
+    background: #fff;
+    transition: all 0.4s;
+  }
+  
+  .planwrap2 input:checked + .sliderss {
+    background:  hsl(213, 96%, 18%);
+  }
+  
+  .planwrap1 input:checked + .sliders::before {
+    transform: translateX(15px);
+  }
+  
+  .planwrap2 input:checked + .sliderss::before {
+    transform: translateX(15px);
+  }
+  
+  .planwrap1 .sliders.rounds {
+    border-radius: 34px;
+    
+  }
+  .planwrap1 .sliders.rounds::before {
+    border-radius: 50%;
+  }
+  .planwrap2 input:checked + .sliderss::before {
+    transform: translateX(15px);
+  }
+  
+  .planwrap2 .sliderss.roundss {
+    border-radius: 34px;
+    
+  }
+  .planwrap2 .sliderss.roundss::before {
+    border-radius: 50%;
+  }
+
+  .planwrap1 .checks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(217, 100%, 97%) ;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .planwrap2 .checkss {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(217, 100%, 97%) ;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .checks > * {
+    margin: 0 5px;
+  }
+ 
+  .checkss > * {
+    margin: 0 5px;
+  }
+
+  .wrap5 img{
+    width: 70px;
+  }
+
+  .wrp{
+    margin: 100px auto 20px;
+  }
+
+  .wrp h1{
+   font-weight: 600;
+   font-size: 25px;
+   margin: 15px 0;
+  }
+
+  .wrp p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #aeaeae;
+  }
+
+
+
+
+
+
+
+
+  .switch {
+    display: inline-block;
+    height: 1rem;
+    position: relative;
+    width: 2rem;
+  }
+  
+  .switch input {
+    display: none;
+  }
+  
+  .slider {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color:  hsl(213, 96%, 18%);
+    cursor: pointer;
+    transition: all 0.4s;
+  }
+  
+  .slider::before {
+    content: "";
+    position: absolute;
+    left: 2px;
+    bottom: 1px;
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    transition: all 0.4s;
+  }
+  
+  input:checked + .slider {
+   background-color:  hsl(213, 96%, 18%);
+  }
+  
+  input:checked + .slider::before {
+    transform: translateX(15px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+    
+  }
+  .slider.round::before {
+    border-radius: 50%;
+  }
+
+  .check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(217, 100%, 97%) ;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .check > * {
+    margin: 0 3px;
+  }
+
+
+  @media screen and (max-width: 600px) {
+     .cont{
+       margin: 0;
+       
+     }
+
+     .sd{
+      height: 200px;
+      flex-direction: row;
+      background-position:bottom;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 10px;
+      overflow: hidden;
+      align-items: center;
+      justify-content: center;
+
+     }
+
+     .sm8{
+      
+      height: 450px;
+      overflow-y: hidden;
+      z-index: 1;
+    
+    
+     }
+
+     .step h5, h4{
+      display: none;
+     }
+     .step2 h5, h4{
+      display: none;
+     }
+     .step3 h5, h4{
+      display: none;
+     }
+     .step4 h5, h4{
+      display: none;
+     }
+
+     .wrap5{
+      padding: 5px;
+     }
+  }
