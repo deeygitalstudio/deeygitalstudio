@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="w3.css">
+  <title>Frontend Mentor | Todo app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body id="body">
+<div class="cont">
+  <div class="top --align-center --flex-between --mb2">
+    <h1>TODO <img src="./images/icon.png" alt="" class="logos"></h1>
+    <img src="./images/icon-sun.svg" alt="" class="img2 light">
+    <img src="./images/icon-moon.svg" alt="" class="img1 darkt">
+  </div>
+  <div class="bos">
+    <input type="text" id="input" autocomplete="off"  class="" placeholder="Add your text">
+    <button id="btn">Add</button>
+</div>
+
+    <ul id="list-cont" class="--mt2 w3-card">
+        <!-- <li class="checked">rice</li> -->
+   
+    </ul>
+
+    <div class="foot --align-center --flex-between">
+      <span class="ss">5 Mins left</span>
+      <div class="cent">
+        <span class="Active">All</span>
+        <span class="darks">Active</span>
+        <span class="complete">Completed</span>
+      </div>
+      <span class="clearC">Clear Completed</span>
+    </div>
+
+</div>
+
+
+
+
+<script src="./app.js"></script>
+</body>
+</html>
