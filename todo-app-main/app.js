@@ -155,13 +155,13 @@ lightEl.addEventListener('click', () => {
 
 
 
-// function saveData(){
-//     localStorage.setItem('data', ListEl.innerHTML);
-// }
+function saveData(){
+    localStorage.setItem('data', ListEl.innerHTML);
+}
 
-// function showList(){
-//     ListEl.innerHTML = localStorage.getItem('data')
-// }
+function showList(){
+    ListEl.innerHTML = localStorage.getItem('data')
+}
 // loadDarkModePreference();
 
 showList();
