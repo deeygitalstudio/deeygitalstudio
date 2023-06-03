@@ -99,7 +99,7 @@ darkEl.addEventListener('click', () => {
     bodyEl.style.backgroundColor = ' hsl(235, 21%, 11%)';
     bodyEl.style.color = '#fff';
     checkEl.style.color = '#fff'
-    saveData()
+    
 });
 
 lightEl.addEventListener('click', () => {
@@ -113,61 +113,60 @@ lightEl.addEventListener('click', () => {
     bosEl.style.backgroundColor = '#fafafa';
     bodyEl.style.backgroundColor = '#fff'
     checkEl.style.color = '#212121'
-    saveData()
+    
 });
 
-// Function to toggle the dark mode
-function toggleDarkMode() {
-    bodyEl.classList.toggle('dark-mode');
+// // Function to toggle the dark mode
+// function toggleDarkMode() {
+//     bodyEl.classList.toggle('dark-mode');
    
-}
+// }
 
-// Function to save the dark mode preference to localStorage
-function saveDarkModePreference(isDarkMode) {
-    localStorage.setItem('darkModePreference', isDarkMode);
-}
-
-
-function loadDarkModePreference() {
-    const darkModePreference = localStorage.getItem('darkModePreference');
-    if (darkModePreference === 'true') {
-        bodyEl.classList.add('dark-mode');
-        darkEl.style.display = 'none';
-        lightEl.style.display = 'block';
-    }
-}
+// // Function to save the dark mode preference to localStorage
+// function saveDarkModePreference(isDarkMode) {
+//     localStorage.setItem('darkModePreference', isDarkMode);
+// }
 
 
-darkEl.addEventListener('click', () => {
-    toggleDarkMode();
-    saveDarkModePreference(true);
-    darkEl.style.display = 'none';
-    lightEl.style.display = 'block';
-});
-
-lightEl.addEventListener('click', () => {
-    toggleDarkMode();
-    saveDarkModePreference(false);
-    darkEl.style.display = 'block';
-    lightEl.style.display = 'none';
-});
+// function loadDarkModePreference() {
+//     const darkModePreference = localStorage.getItem('darkModePreference');
+//     if (darkModePreference === 'true') {
+//         bodyEl.classList.add('dark-mode');
+//         darkEl.style.display = 'none';
+//         lightEl.style.display = 'block';
+//     }
+// }
 
 
+// darkEl.addEventListener('click', () => {
+//     toggleDarkMode();
+//     saveDarkModePreference(true);
+//     darkEl.style.display = 'none';
+//     lightEl.style.display = 'block';
+// });
+
+// lightEl.addEventListener('click', () => {
+//     toggleDarkMode();
+//     saveDarkModePreference(false);
+//     darkEl.style.display = 'block';
+//     lightEl.style.display = 'none';
+// });
 
 
 
-function saveData(){
-    localStorage.setItem('data', ListEl.innerHTML);
-}
 
-function showList(){
-    ListEl.innerHTML = localStorage.getItem('data')
-}
+// function saveData(){
+//     localStorage.setItem('data', ListEl.innerHTML);
+// }
 
+// function showList(){
+//     ListEl.innerHTML = localStorage.getItem('data')
+// }
+// loadDarkModePreference();
 
 showList();
 
-loadDarkModePreference();
+
 
 
 
