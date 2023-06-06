@@ -20,7 +20,7 @@ const wordArray = ["Frontend Developer.", "UI UX Designer.", "Photography and Vi
 let wordArrayIndex = 0;
 let letterIndex = 0;
 
-const typingDelay = 200;
+const typingDelay = 50;
 const erasingDelay = 100;
 const newWordDelay = 2000;
 
