@@ -31,7 +31,7 @@ function type() {
       cursor.classList.add("typing");
     }
 
-    typedWord.textContent += wordArray[wordArrayIndex].charAt(letterIndex);
+    WordsEl.textContent += wordArray[wordArrayIndex].charAt(letterIndex);
     letterIndex++;
     setTimeout(type, typingDelay);
   } else {
@@ -46,7 +46,7 @@ function erase() {
     if (!cursor.classList.contains("typing")) {
       cursor.classList.add("typing");
     }
-    typedWord.textContent = wordArray[wordArrayIndex].substring(
+    WordsEl.textContent = wordArray[wordArrayIndex].substring(
       0,
       letterIndex - 1
     );
@@ -65,6 +65,8 @@ function erase() {
 document.addEventListener("DOMContentLoaded", () => {
   setTimeout(type, newWordDelay);
 });
+
+
 
 function downloadFile() {
     // Create a temporary element
