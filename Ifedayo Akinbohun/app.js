@@ -20,7 +20,7 @@ const wordArray = ["Frontend Developer.", "UI UX Designer.", "Photography and Vi
 let wordArrayIndex = 0;
 let letterIndex = 0;
 
-const typingDelay = 50;
+const typingDelay = 200;
 const erasingDelay = 100;
 const newWordDelay = 2000;
 
@@ -31,7 +31,7 @@ function type() {
       cursor.classList.add("typing");
     }
 
-    WordsEl.textContent += wordArray[wordArrayIndex].charAt(letterIndex);
+    typedWord.textContent += wordArray[wordArrayIndex].charAt(letterIndex);
     letterIndex++;
     setTimeout(type, typingDelay);
   } else {
@@ -46,7 +46,7 @@ function erase() {
     if (!cursor.classList.contains("typing")) {
       cursor.classList.add("typing");
     }
-    WordsEl.textContent = wordArray[wordArrayIndex].substring(
+    typedWord.textContent = wordArray[wordArrayIndex].substring(
       0,
       letterIndex - 1
     );
