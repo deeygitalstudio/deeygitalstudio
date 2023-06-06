@@ -198,8 +198,7 @@ dots6El.addEventListener('click', () => {
 })
 
 
-
-const scriptURL = 'https://script.google.com/macros/s/AKfycbw5dG5YWPh3bNPF_a_OfJGkRAk-8SDypMLxDaHX5SaVgTnxymBELpnC9pv3zyTpbO8O6Q/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxbC4-6EO0ioOiYEcpZ6XvzmdiiPdkAd306KYVxr3XZCPWzqrotq5WBLIIyM-D8AtEh6Q/exec';
 const form = document.forms['submit-to-google-sheet']
 const errorEl = document.getElementById("error")
 const btnEl = document.getElementById("btn")
