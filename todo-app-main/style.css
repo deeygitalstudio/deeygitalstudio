@@ -95,13 +95,12 @@ input::placeholder{
 
 #btn{
     background: linear-gradient(45deg, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
-    color: white;
+   color: white;
     padding: 16px 50px;
-    border-radius: 5px;
+    border-radius: 40px;
     cursor: pointer;
     border: none;
     outline: none;
-    font-weight: 400;
 }
 
 ul li{
@@ -219,13 +218,13 @@ ul li span:hover{
 
 
 .dark-mode {
-    color: white;
+
     background-image: url(./images/bg-desktop-dark.jpg);
     background-color:hsl(235, 21%, 11%) ;
 }
 
 .lightmode{
-    color: rgb(64, 64, 64);
+
     background-image: url(./images/bg-desktop-light.jpg);
     background-color: #fff;
 }
