@@ -61,14 +61,13 @@ body{
 
 
 .bos{
-    display: flex;
+   display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 10px;
+    padding-left: 20px;
     margin-bottom: 25px;
     background: #edeef0;
-    border-radius: 5px;
-
+    border-radius: 30px;
 }
 
 input{
