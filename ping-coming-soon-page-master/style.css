@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Libre Franklin";
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.box{
+    width: 100%;
+    max-width: 600px;
+   text-align: center;
+   margin: 50px auto 20px;
+}
+
+.box h1{
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 30px;
+    color: hsl(222, 36%, 65%)
+   
+}
+.box span{
+    font-size: 55px;
+    font-weight: 700;
+    color: hsl(0, 0%, 19%)
+   
+}
+
+.box p{
+    font-size: 20px;
+    margin-top: 25px;
+    color: rgba(44, 44, 44, 0.5);
+}
+
+.box .inp{
+    width: 100%;
+    margin: 50px 0;
+}
+
+.box .inp input{
+    padding: 20px 15px;
+    outline: none;
+    width: 70%;
+    border-radius: 50px;
+    border: 1px solid hsl(222, 36%, 65%);
+    background: transparent;
+}
+
+.box .inp button{
+    padding: 20px 15px;
+    outline: none;
+    width: 29%;
+    border-radius: 50px;
+    background: hsl(222, 94%, 58%);
+    color: #fff;
+    border: none;
+}
+
+.box .inp input::placeholder{
+    color: #acacac96;
+}
+
+.box .img2{
+    width: 100%;
+    margin-top: 50px;
+}
+
+ .socials{
+    margin-top: 30px;
+   
+}
+
+ .fa{
+    font-size: 16px;
+    margin: 0 10px;
+    color: rgb(43, 92, 253);
+}
+
+@media screen and (max-width: 600px){
+    .box h1{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 30px;
+    color: hsl(222, 36%, 65%)
+   
+}
+.box span{
+    font-size: 30px;
+    font-weight: 700;
+    color: hsl(0, 0%, 19%)
+   
+}
+
+.box .inp input{
+    padding: 15px 10px;
+    outline: none;
+    width: 100%;
+    border-radius: 50px;
+    border: 1px solid hsl(222, 36%, 65%);
+    background: transparent;
+}
+
+.box .inp button{
+    padding: 15px 10px;
+    outline: none;
+    width: 100%;
+    border-radius: 50px;
+    background: hsl(222, 94%, 58%);
+    color: #fff;
+    border: none;
+    margin-top: 10px;
+}
+
+.box{
+    padding: 20px;
+}
+
+
+
+}
