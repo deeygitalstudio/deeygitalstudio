@@ -15,6 +15,7 @@ const dots3El = document.querySelector(".dots3");
 const dots4El = document.querySelector(".dots4");
 const dots5El = document.querySelector(".dots5");
 const dots6El = document.querySelector(".dots6");
+const bodel = document.querySelector(".bod")
 
 const wordArray = ["Frontend Developer.", "UI UX Designer.", "Photography and Video Editor.", "Motion Graphics Artist.", "Instructor."];
 let wordArrayIndex = 0;
@@ -144,7 +145,7 @@ dots1El.addEventListener('click', () => {
     rr5El.style.backgroundColor = '#001e4d'
     rr6El.style.backgroundColor = '#001e4d'
     navbarEl.style.backgroundColor = '#001e4d'
-    
+    bodEl.style.backgroundColor = '#001e4d'
 })
 dots2El.addEventListener('click', () => {
     rrEl.style.backgroundColor = 'hsl(191, 100%, 17%)'
@@ -154,7 +155,7 @@ dots2El.addEventListener('click', () => {
     rr5El.style.backgroundColor = 'hsl(191, 100%, 17%)'
     rr6El.style.backgroundColor = 'hsl(191, 100%, 17%)'
     navbarEl.style.backgroundColor = 'hsl(191, 100%, 17%)'
-    
+    bodEl.style.backgroundColor = 'hsl(191, 100%, 17%)'
 })
 dots3El.addEventListener('click', () => {
     rrEl.style.backgroundColor = '#013b24'
@@ -164,7 +165,7 @@ dots3El.addEventListener('click', () => {
     rr5El.style.backgroundColor = '#013b24'
     rr6El.style.backgroundColor = '#013b24'
     navbarEl.style.backgroundColor = '#013b24'
-    
+     bodEl.style.backgroundColor = '#013b24'
 })
 dots4El.addEventListener('click', () => {
     rrEl.style.backgroundColor = '#002229'
@@ -174,7 +175,7 @@ dots4El.addEventListener('click', () => {
     rr5El.style.backgroundColor = '#002229'
     rr6El.style.backgroundColor = '#002229'
     navbarEl.style.backgroundColor = '#002229'
-    
+    bodEl.style.backgroundColor = '#002229'
 })
 dots5El.addEventListener('click', () => {
     rrEl.style.backgroundColor = 'hsl(289, 100%, 15%)'
@@ -184,7 +185,7 @@ dots5El.addEventListener('click', () => {
     rr5El.style.backgroundColor = 'hsl(289, 100%, 15%)'
     rr6El.style.backgroundColor = 'hsl(289, 100%, 15%)'
     navbarEl.style.backgroundColor = 'hsl(289, 100%, 15%)'
-    
+    bodEl.style.backgroundColor = 'hsl(289, 100%, 15%)'
 })
 dots6El.addEventListener('click', () => {
     rrEl.style.backgroundColor = '#0f0f0f'
@@ -194,7 +195,7 @@ dots6El.addEventListener('click', () => {
     rr5El.style.backgroundColor = '#0f0f0f'
     rr6El.style.backgroundColor = '#0f0f0f'
     navbarEl.style.backgroundColor = '#0f0f0f'
-    
+     bodEl.style.backgroundColor = '#0f0f0f'
 })
 
 
