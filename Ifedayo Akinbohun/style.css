@@ -390,12 +390,12 @@ section{
     }
   
   footer{
-   position: fixed;
-  bottom: 0;
+
   width: 100%;
-  background: #001e4d;
   padding: 3rem 0;
   margin: 0;
+  background: #001e4d;
+
   }
   
   header {
