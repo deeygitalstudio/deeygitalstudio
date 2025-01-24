@@ -19,6 +19,12 @@ section{
 }
 
 
+.form-control{
+    background: transparent;
+    border: 1px solid white;
+}
+
+
 .navbar{
     background: #001e4d;
     color: #fff;
