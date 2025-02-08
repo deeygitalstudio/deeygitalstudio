@@ -17,7 +17,7 @@ const dots5El = document.querySelector(".dots5");
 const dots6El = document.querySelector(".dots6");
 const bodEl = document.querySelector(".bod")
 
-const wordArray = ["Frontend Developer.", "UI UX Designer.", "Photography and Video Editor.", "Motion Graphics Artist.", "Instructor."];
+const wordArray = ["Fullstack Developer(MERN).", "UI UX Designer.", "Photography and Video Editor.", "Volunteer", "Instructor."];
 let wordArrayIndex = 0;
 let letterIndex = 0;
 
