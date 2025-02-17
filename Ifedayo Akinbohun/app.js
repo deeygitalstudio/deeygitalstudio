@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
 function downloadFile() {
     // Create a temporary element
     var link = document.createElement('a');
-    link.href = './images/Akinbohun-Ifedayo...pdf';  // Replace with the actual file URL
+    link.href = './image/Ifedayo Akinbohun Resume.docx';  // Replace with the actual file URL
     link.download = 'Akinbohun ifedayo.pdf';   // Replace with the desired file name
 
     // Append the element to the body
