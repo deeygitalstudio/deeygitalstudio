@@ -22,17 +22,11 @@ section{
 .form-control{
     background: transparent;
     border: 1px solid white;
-    outline: white;
     color: white;
     
 }
 
-.form-control:focus{
-    background: transparent;
-    border: 1px solid white;
-    outline: white;
-    color: white;
-}
+
 
 
 .navbar{
