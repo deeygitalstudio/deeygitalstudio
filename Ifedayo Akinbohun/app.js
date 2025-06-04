@@ -11,28 +11,91 @@ animate('.status', {
     loopDelay: 250,
   });
 
-  animate('.square1', {
-    x: '35rem',
-    rotate: '1turn',
-    duration: 2000,
-    alternate: true,
-    loop: true,
-    ease: 'inOutQuad',
-    autoplay: onScroll({
-      container: '.scroll-container'
-    })
-  });
-  animate('.square2', {
-    x: '-35rem',
-    rotate: '1turn',
-    duration: 2000,
-    alternate: true,
-    loop: true,
-    ease: 'inOutQuad',
-    autoplay: onScroll({
-      container: '.scroll-container'
-    })
-  });
+//   animate('.square1', {
+//     x: '35rem',
+//     rotate: '1turn',
+//     duration: 2000,
+//     alternate: true,
+//     loop: true,
+//     ease: 'inOutQuad',
+//     autoplay: onScroll({
+//       container: '.scroll-container'
+//     })
+//   });
+//   animate('.square2', {
+//     x: '-35rem',
+//     rotate: '1turn',
+//     duration: 2000,
+//     alternate: true,
+//     loop: true,
+//     ease: 'inOutQuad',
+//     autoplay: onScroll({
+//       container: '.scroll-container'
+//     })
+//   });
+
+
+const mediaQuery = window.matchMedia('(max-width: 500px)');
+
+function handleAnimation() {
+  if (mediaQuery.matches) {
+    // Mobile animation
+    animate('.square1', {
+        x: '23rem',
+        rotate: '1turn',
+        duration: 2000,
+        alternate: true,
+        loop: true,
+        ease: 'inOutQuad',
+        autoplay: onScroll({
+          container: '.scroll-container'
+        })
+      });
+      animate('.square2', {
+        x: '-23rem',
+        rotate: '1turn',
+        duration: 2000,
+        alternate: true,
+        loop: true,
+        ease: 'inOutQuad',
+        autoplay: onScroll({
+          container: '.scroll-container'
+        })
+      });
+  } else {
+    // Desktop animation
+     animate('.square2', {
+            x: '-35rem',
+            rotate: '1turn',
+            duration: 2000,
+            alternate: true,
+            loop: true,
+            ease: 'inOutQuad',
+            autoplay: onScroll({
+              container: '.scroll-container'
+            })
+          });
+
+          animate('.square1', {
+            x: '35rem',
+            rotate: '1turn',
+            duration: 2000,
+            alternate: true,
+            loop: true,
+            ease: 'inOutQuad',
+            autoplay: onScroll({
+              container: '.scroll-container'
+            })
+          });
+  }
+}
+
+// Initial setup
+handleAnimation();
+
+// Update on resize
+mediaQuery.addListener(handleAnimation);
+
 
 
   const squares = utils.$('.icons');
@@ -153,7 +216,9 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
 
 // Dark mode toggle
 const themeToggle = document.getElementById('theme-toggle');
+const themeToggle2 = document.getElementById('theme-toggle2');
 const darkModeIcon = document.getElementById('dark-mode-icon');
+const darkModeIcon2 = document.getElementById('dark-mode-icon2');
 const html = document.documentElement;
 
 // Check for saved theme preference or respect OS setting
@@ -173,6 +238,17 @@ themeToggle.addEventListener('click', () => {
     } else {
         localStorage.setItem('theme', 'light');
         darkModeIcon.classList.replace('fa-sun', 'fa-moon');
+    }
+});
+
+themeToggle2.addEventListener('click', () => {
+    html.classList.toggle('dark');
+    if (html.classList.contains('dark')) {
+        localStorage.setItem('theme', 'dark');
+        darkModeIcon2.classList.replace('fa-moon', 'fa-sun');
+    } else {
+        localStorage.setItem('theme', 'light');
+        darkModeIcon2.classList.replace('fa-sun', 'fa-moon');
     }
 });
 
@@ -219,13 +295,13 @@ window.addEventListener('scroll', () => {
 });
 
 // Preloader animation
-window.addEventListener('load', () => {
-    const preloader = document.querySelector('.preloader');
-    setTimeout(() => {
-        preloader.style.opacity = '0';
-        preloader.style.visibility = 'hidden';
-    }, 500);
-});
+// window.addEventListener('load', () => {
+//     const preloader = document.querySelector('.preloader');
+//     setTimeout(() => {
+//         preloader.style.opacity = '0';
+//         preloader.style.visibility = 'hidden';
+//     }, 500);
+// });
 
 // Animate skill bars
 const animateSkillBars = () => {
