@@ -2,367 +2,916 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ifedayo Akinbohun</title>
-    <link rel="stylesheet" href="./bootstrap.min.css">
+    <title>Akinbohun Ifedayo - Full Stack Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="w3.css">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.js" integrity="sha512-E378bwaeZf1nwXeJGIwTB58A5gPt5jFU3u6aTGja4ZdRFJeo/N/REKnBgNZOZlH6JdnOPO98vg2AnSGaNfCMFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script
-    src="https://kit.fontawesome.com/1935d064dd.js"
-    crossorigin="anonymous"
-  ></script>
-</head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-8L5C0LRGDK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-8L5C0LRGDK');
-</script>
-<body class="bod">
-    <header style="z-index: 9999">
-        <nav class="navbar navbar-expand-lg w3-top">
-            <div class="container --mt2">
-              <a class="navbar-brand" href="#">AI <img src="https://cdn3.iconfinder.com/data/icons/luchesa-vol-9/128/Html-512.png" alt=""></a>
-              <button class="navbar-toggler w3-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#about">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#project">Projects</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#contact">Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-    </header>
-<section class="rr2" id="home">
-    <div class="container --mt2">
-        <div class="row --align-center">
-            <div class="col-sm-6 ">
-              <div class="head">
-                <div>
-                  <h6>Hey...</h6>
-            <h1 class="">I'm <span class="name">Akinbohun Ifedayo</span></h1>
-        </div>
-            <p class="words --mt2">
-            <span class="cursor">&nbsp;</span>
-        </p>
-    </div>
-            </div>
-            <div class="col-sm-6">
-                <img src="https://static.vecteezy.com/system/resources/previews/011/153/368/original/3d-website-developer-working-on-laptop-illustration-png.png" alt=""  class="floats">
-            </div>
-        </div>
-
-        <div class="fixed-icon">
-          <img src="https://icon-library.com/images/theme-icon-png/theme-icon-png-6.jpg" alt="Icon">
-        </div>
-        <div class="modal" id="modal">
-          <div class="modal-content">
-            <div class="--flex-between --mb2">
-             <span class="dots1"></span>
-             <span class="dots2"></span>
-             <span class="dots3"></span>
-             <span class="dots4"></span>
-             <span class="dots5"></span>
-             <span class="dots6"></span>
-            
-            </div>
-            <div class="button-container --mt2">
-              <button onclick="closeModal()" class="w3-button w3-round">Close</button>
-            </div>
-          </div>
-        </div>
-    </div>
-  
-</section>
-
-<section class="rr" id="about">
-  <div class="container abt">
-    <h2 class="w3-center --mb2">About Me</h2>
-    <div class="dee row --align-center --mt2">
-      <div class="col-sm-6">
-        <img src="https://static.vecteezy.com/system/resources/previews/011/153/363/original/3d-web-developer-working-on-project-illustration-png.png" alt="" class="floats">
-      </div>
-      <div class="col-sm-6 --p2">
-        <p>Hi there, My name is Akinbohun Ifedayo, A Multifaceted Creative Professional,  I'm a frontend developer, UI/UX designer, photography and video editor. I combine technical expertise with artistic flair to create seamless digital experiences, captivating visuals, and meaningful stories. With a passion for volunteering and teaching, I have honed my skills while giving back to the community. Let's collaborate and transform your ideas into reality,<span id="dots">...</span><span id="more"> Contact me to discuss your project or explore opportunities for collaboration. Together, we can create something extraordinary., I also love to design user friendly website with Html, Css Javascript, Bootstrap and Firebase. Nice having you here..</span><span id="read">See more</span></p>
-      </div>
-
-    </div>
- 
-    <button onclick="downloadFile()" id="btnn" class="w3-btn w3-round --mt2">Download CV</button>
-
-  </div>
-</section>
-
-<section class=" ---section rr3" id="skills">
-  <div class="container --mt2">
-      <div class="skills">
-          <h1 class="w3-text-black">Skills</h1>
-
-          <div class="logos --mt2">
-              <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png" alt=""  class="board">
-              <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" alt="" class="board">
-              <img src="https://i0.wp.com/theicom.org/wp-content/uploads/2016/03/js-logo.png?fit=500%2C500&ssl=1&w=640" alt="" class="board">
-              <img src="https://icon-library.com/images/jquery-icon-png/jquery-icon-png-26.jpg" alt="" class="board">
-              <img src="https://w3schoolsua.github.io/images/w3css_logo.png" alt="">
-              <img src="https://www.brcline.com/wp-content/uploads/2016/01/bootstrap-logo.png" alt="" class="board">
-              <img src="https://static.vecteezy.com/system/resources/previews/012/697/295/non_2x/3d-python-programming-language-logo-free-png.png" alt="" class="board">
-              <img src="https://diegomariano.com/wp-content/uploads/2021/06/react-logo.png" alt="">
-              <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="">
-              <img src="https://static.invertase.io/assets/social/firebase-logo.png" alt="">
-              <img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" alt="">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/1200px-Adobe_XD_CC_icon.svg.png" alt="">
-              <img src="https://www.seekpng.com/png/detail/227-2272272_adobe-after-effects-premiere-pro-logo-png.png" alt="">
-              <img src="https://www.luckystudio4u.com/wp-content/uploads/2020/12/adobe-premiere-pro-logo-3.png" alt="">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/640px-Adobe_Photoshop_CC_icon.svg.png" alt="">
-              <img src="https://cdn-images-1.medium.com/max/1200/1*A6kkoOVJVpXPWewg8axc5w.png" alt="">
-              <img src="https://cdn.protopie.io/web/ctfassets/MediaKit/img_logo03.png" alt="">
-              <img src="https://academyclass.com/wp-content/uploads/2021/10/ACCL-Maxon-Cinema-4D.png" alt="">
-              <img src="https://www.digiseller.ru/preview/1100681/p1_3624765_e31a24b4.png" alt="">
-          </div>
-        </div>
-  </div>
-</section>
-
-<section class="rr4" id="project">
-  <div class="container project">
-      <h1 class="w3-center w3-text-black">Projects</h1>
-      <div class="row --my2">
-          <div class="col-md-4 w3-hover-opacity">
-              <a href="https://deeygitalstudio.github.io/deeygitalstudio/3dslide/"><img src="./image/bandicam 2023-01-08 10-45-55-231.jpg" class="w3-image"></a>
-              <h3 class="--mt">3D Slide (HTML CSS JQUERY)</h3>
-          </div>
-          <div class="col-md-4 w3-hover-opacity ">
-              <a href="https://deeygitalstudio.github.io/deeygitalstudio/Signupage/"><img src="./image/bandicam 2023-01-08 11-03-05-038.jpg" class="w3-image"></a>
-              <h3 class="--mt">Sign Up page (HTML CSS JS Firebase)</h3>
-          </div>
-          <div class="col-md-4 w3-hover-opacity ">
-              <a href="https://deeygitalstudio.github.io/deeygitalstudio/manage%20landing%20page/"><img src="./image/bandicam 2023-01-08 11-07-18-460.jpg" class="w3-image"></a>
-              <h3 class="--mt2">Manage Landing Page (HTML CSS Boostrap)</h3>
-          </div>
-          <div class="col-md-4 w3-hover-opacity ">
-              <a href="https://deeygitalstudio.github.io/deeygitalstudio/Product%20page/"><img src="./image/bandicam 2023-01-08 11-25-03-908.jpg" class="w3-image"></a>
-              <h3 class="--mt">Product Page (HTML CSS Bootstrap JS)</h3>
-          </div>
-          <div class="col-md-4 w3-hover-opacity ">
-              <a href="https://www.atouchofhome.care/"><img src="./images/touch.jpg" class="w3-image"></a>
-              <h3 class="--mt">Care Home Website (HTML CSS Bootstrap JS)</h3>
-          </div>
-          <div class="col-md-4 w3-hover-opacity ">
-              <a href="https://deeygitalstudio.github.io/deeygitalstudio/calculator-app-main/"><img src="./images/bandicam 2023-06-05 21-20-47-690.jpg" class="w3-image"></a>
-            
-              <h3 class="--mt">Basic Calculator (HTML CSS JS)</h3>
-          </div>
-          
-            <div class="col-md-4 w3-hover-opacity ">
-              <a href="https://med-card-team-pretoria.vercel.app/"><img src="./image/me.jpg" class="w3-image"></a>
-            
-              <h3 class="--mt">MED CARD (HTML CSS JS FIREBASE)</h3>
-          </div>
-          <div class="col-md-4 w3-hover-opacity ">
-              <a href="https://deeygitalstudio.github.io/deeygitalstudio/age-calculator-app-main/"><img src="./images/bandicam 2023-06-05 21-23-42-694.jpg" class="w3-image"></a>
-            
-              <h3 class="--mt">Age Calculator (HTML CSS JS)</h3>
-          </div>
-          <div class="col-md-4 w3-hover-opacity ">
-              <a href="https://deeygitalstudio.github.io/deeygitalstudio/multi-step-form-main/"><img src="./images/bandicam 2023-06-06 10-29-22-795.jpg" class="w3-image"></a>
-            
-              <h3 class="--mt">Multi Step Form (HTML CSS JS)</h3>
-          </div>
-          <div class="col-md-4 w3-hover-opacity ">
-              <a href="https://deeygitalstudio.github.io/Netflix-clone/"><img src="./images/netflix.jpg" class="w3-image"></a>
-            
-              <h3 class="--mt">Netflix Clone (React Firebase API)</h3>
-          </div>
-          <div class="col-md-4 w3-hover-opacity ">
-              <a href="https://deeygitalstudio.github.io/Food-Recipe/"><img src="./images/recipe.jpg" class="w3-image"></a>
-            
-              <h3 class="--mt">Recipe Website (HTML CSS Bootstrap JS API)</h3>
-          </div>
-          <div class="col-md-4 w3-hover-opacity ">
-              <a href="https://deeygitalstudio.github.io/deeygitalstudio/MUA"><img src="./image/mua.jpg" class="w3-image"></a>
-            
-              <h3 class="--mt">MUA Website (HTML CSS JS)</h3>
-          </div>
-          <div class="col-md-4 w3-hover-opacity ">
-              <a href="https://deeygitalstudio.github.io/deeygitalstudio/todo-app-main/"><img src="./images/bandicam 2023-06-05 21-25-23-521.jpg" class="w3-image"></a>
-            
-              <h3 class="--mt">TODO List (HTML CSS JS)</h3>
-          </div>
-          <div class="col-md-4 w3-hover-opacity ">
-              <a href="https://deeygitalstudio.github.io/deeygitalstudio/fylo-landing-page-with-two-column-layout-master/"><img src="./images/bandicam 2023-06-05 20-31-51-128.jpg" class="w3-image"></a>
-            
-              <h3 class="--mt">Fylo Landing Page (HTML CSS Bootstrap)</h3>
-          </div>
-          <div class="col-md-4 w3-hover-opacity ">
-              <a href="https://deeygitalstudio.github.io/Budget-Tracker/"><img src="./image/buds.jpg" class="w3-image"></a>
-            
-              <h3 class="--mt">Budget Tracker App (HTML CSS JS)</h3>
-          </div>
-          <div class="col-md-4 w3-hover-opacity ">
-              <a href="https://deeygitalstudio.github.io/Image-Search-Engine/"><img src="./images/IMGs.jpg" class="w3-image"></a>
-            
-              <h3 class="--mt">Image Gallery (HTML CSS JS API)</h3>
-          </div>
-          <div class="col-md-4 w3-hover-opacity ">
-              <a href="https://mern-crud-pzsx.onrender.com/"><img src="./images/MERNS.jpg" class="w3-image"></a>
-            
-              <h3 class="--mt">CRUD Operation (MERN)</h3>
-          </div>
-          <div class="col-md-4 w3-hover-opacity ">
-              <a href="https://deeygitalstudio.github.io/Groceries/"><img src="./image/groc.jpg" class="w3-image"></a>
-            
-              <h3 class="--mt">Groceries Website (HTML CSS JS)</h3>
-          </div>
-      </div>
-
-  </div>
-</section>
-
-<section id="contact" class="rr5">
-  <div class="container">
-      <div class="row">
-          <h1 class="chi">Get in touch</h1>
-          <div class="col-md-6   --flex-center">
-              <form action="" name="submit-to-google-sheet" class="--p2 --form-control form1 --width-500px">
-                  <div class="">
-                  <label for="Name">FirstName</label>
-                  <input type="text" required class="form-control form-control-lg" name="First Name" placeholder='John'>
-                  </div>
-
-                  <div>
-                  <label for="Name">LastName</label>
-                  <input required  type="text" class="form-control form-control-lg" name="Last Name" placeholder="Doe">
-                  </div>
-
-                  <div>
-                  <label for="Em">Email</label>
-                  <input required type="text" class="form-control form-control-lg" name="Email"  placeholder="example@gmail.com">
-                  </div>
-
-                  <div>
-                  <label for="Em">Phone Number</label>
-                  <input required type="number" class="form-control form-control-lg" name="Phone Number"  placeholder="+234000000">
-                  </div>
-
-                  <div>
-                  <label for="Message">Send us a message</label>
-                  <textarea  id="" cols="" required class="form-control form-control-lg" rows="10" name="Message" placeholder="your text here..."></textarea>
-                  </div>
-
-                  <p id="error"></p>
-
-                  <div class="--flex-between det ">
-                      <button class=" w3-btn w3-round" id="btn">Send</button>
-                      <h5 class="w3-text-white">Wanna Learn a Tech Skill? <span class="--pointer click">Click here</span></h5>
-                  </div>
-                 
-              </form>
-
-              <form action="" name="submit-to-google-sheets" class="--p2 --form-control  form2  --width-500px">
-                  <div class="">
-                  <label for="Name">Full Name</label>
-                  <input type="text" required class="form-control inp form-control-lg" name="Full Name" placeholder='John'>
-                  </div>
-                 
-                  <div>
-                  <label for="Em">Email</label>
-                  <input required type="text" class="form-control inp form-control-lg" name="Email"  placeholder="example@gmail.com">
-                  </div>
-
-                  <div>
-                  <label for="Em">Phone Number</label>
-                  <input required type="number" class="form-control inp form-control-lg" name="Phone Number"  placeholder="+234000000">
-                  </div>
-
-                  <div>
-                      <select class="form-select form-control inp" name="Track"  aria-label="Default select example">
-                          <option disabled>Select your Track</option>
-                          <option value="Frontend Development">Frontend Development</option>
-                          <option value="Backend Development">Backend Development</option>
-                          <option value="FullStack Development">FullStack Development</option>
-                          <option value="UI-UX Design">UI-UX Design</option>
-                          <option value="Photography and Video Editing">Photography and Video Editing</option>
-                          <option value="Motion Graphics">Motion Graphics</option>
-                        </select>
-                  </div> 
-
-                  <div>
-                  <label for="Message">Tell us why you made the choice</label>
-                  <textarea  id="" cols="" required class="form-control inp form-control-lg" rows="10" name="Message" placeholder="your text here..."></textarea>
-                  </div>
-
-                  <p id="error1"></p>
-
-                  <div class="--flex-between --align-center det ">
-                      <button class="w3-blue w3-btn w3-round" id="btn1">Submit</button>
-                      <h5 class="w3-text-white ">You want to make an Enquiry? <span class=" --pointer click1">Click here</span></h5>
-                  </div>
-                 
-              </form>
-              
-          </div>
-          
-
-
-          <div class="col-md-6">
-<img src="https://static.vecteezy.com/system/resources/previews/011/153/368/original/3d-website-developer-working-on-laptop-illustration-png.png" class="cim w3-image img floats" alt="" class="floats">
-              <img src="https://static.vecteezy.com/system/resources/previews/011/153/363/original/3d-web-developer-working-on-project-illustration-png.png" class="cim w3-image img1 floats" alt="" class="">
-          </div>
-          
-      </div>
-
-  </div>
-</section>
-
-
-<footer class="rr6">
-  <div class="container w3-center "> 
-      <h1 class="fme">Hey! let's link up on social media</h1>
-      <div class="social-links --mb2">
-        <a href="https://github.com/deeygitalstudio/deeygitalstudio"><i class="fa fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/akinbohun-ifedayo-06b272130/"><i class="fa fa-linkedin"></i></a>
-        <a href="https://www.instagram.com/deeygitalstudio/"><i class="fa fa-instagram"></i></a>
-        <a href="https://twitter.com/ife_d_ayo"><i class="fa fa-twitter"></i></a>
-        <a href="https://web.facebook.com/dayo.akinsdbeats/"><i class="fa fa-facebook"></i></a>
-        <a href="https://www.behance.net/akinbohifedayo"><i class="fa fa-behance"></i></a>
-        <a href="mailto:deeyakin@gmail.com, deeyakin@yahoo.com"><i class="fa fa-envelope"></i></a>
-        <a href="http://figma.com/@fd302e79_e37e_4"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968705.png" style="width: 17px;"></a>
-      </div> 
-            <a href="tel:+2347057700258" class="--text-light --mr2"><i class="fa fa-phone --text-light"></i> 07057700258</a>
-       <a href="tel:+2348026650502" class="--text-light --mr "><i class="fa fa-phone --text-light "></i> 08026650502</a>
-      <a href="https://api.whatsapp.com/send?phone=9035137482" class="--text-light "><i class="fa fa-whatsapp --text-light "></i> 09035137482</a>
-      <h3>&copy Akinbohun Ifedayo <script>document.write(new Date().getFullYear())</script></h3>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    animation: {
+                        'float': 'float 6s ease-in-out infinite',
+                        'bounce-slow': 'bounce 3s infinite'
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-10px)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
     
-  </div>
-</footer>
-  
+</head>
+<body class="bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-gray-100">
+    <!-- Navigation -->
+    <nav class="bg-white dark:bg-gray-800 shadow-sm fixed w-full top-0 z-50 glass-effect">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <span class="text-xl icons font-bold text-blue-600 dark:text-blue-400">&lt;AI/&gt;</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <div class="hidden md:block">
+                        <div class="flex items-baseline space-x-8">
+                            <a href="#home" class="nav-link active">Home</a>
+                            <a href="#about" class="nav-link">About</a>
+                            <a href="#skills" class="nav-link">Skills</a>
+                            <a href="#projects" class="nav-link">Projects</a>
+                            <a href="#experience" class="nav-link">Experience</a>
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </div>
+                    </div>
+                    <div class="flex items-center">
+                        <button id="theme-toggle" class="text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 p-2 rounded-full">
+                            <i id="dark-mode-icon" class="fas fa-moon"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="theme-toggle" class="text-gray-600  dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 p-2 rounded-full mr-3">
+                        <i id="dark-mode-icon" class="fas fa-moon"></i>
+                    </button>
+                    <button id="mobile-menu-btn" class="text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700 p-2 rounded-full">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-white dark:bg-gray-800 border-t dark:border-gray-700">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="#home" class="nav-link block px-3 py-2">Home</a>
+                <a href="#about" class="nav-link block px-3 py-2">About</a>
+                <a href="#skills" class="nav-link block px-3 py-2">Skills</a>
+                <a href="#projects" class="nav-link block px-3 py-2">Projects</a>
+                <a href="#experience" class="nav-link block px-3 py-2">Experience</a>
+                <a href="#contact" class="nav-link block px-3 py-2">Contact</a>
+            </div>
+        </div>
+    </nav>
 
-<script src="./jquery-3.7.js"></script>
-<script src="anijs-min.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script src="./bootstrap.min.js"></script>
-    <script src="./app.js"></script>
-  </body>
+    <!-- Hero Section -->
+    <section id="home" class="pt-19  pb-16 bg-white dark:bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
+            <div class="flex flex-col lg:flex-row items-center justify-between gap-12">
+                <div class="lg:w-1/2 lg:pr-12 reveal text-center lg:text-left w-full mx-auto">
+                    <h1 class="text-4xl lg:text-4xl  font-bold text-gray-900 dark:text-white mb-4">
+                        Hi, I'm <span class="text-blue-600 dark:text-blue-400">Akinbohun Ifedayo</span>
+                    </h1>
+                    <p class="text-sm lg:text-md leading  text-gray-700 dark:text-gray-300 mb-6  tracking-wide">
+                        Frontend Developer
+                    </p>
+                    <p class="text-md text-gray-700 dark:text-gray-300 mb-8 leading-relaxed">
+                        I build exceptional digital experiences with clean code and modern technologies. 
+                        Passionate about creating software that solves real-world problems with beautiful interfaces.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 mb-8 lg:justify-start">
+                        <a href="#contact"  class="bg-blue-600 dark:bg-blue-700 text-white px-6 py-3 rounded-lg hover:bg-blue-700 dark:hover:bg-blue-600 transition duration-300 font-medium shadow-lg hover:shadow-xl">
+                            Get in touch
+                       </a>
+                        <a href="#projects" class="border-2 border-blue-600 dark:border-blue-500 text-blue-600 dark:text-blue-400 px-6 py-3 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/50 transition duration-300 font-medium">
+                            View my work
+                     </a>
+                    </div>
+                    <div class="flex space-x-6  justify-center lg:justify-start">
+                        <a href="https://github.com/deeygitalstudio" class=" hover:text-blue-200 transition duration-300">
+                            <i class="fab fa-github si text-1xl"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/akinbohun-ifedayo-06b272130/" class=" hover:text-blue-200 transition duration-300">
+                            <i class="fab fa-linkedin si text-1xl"></i>
+                        </a>
+                        <a href="https://twitter.com/ife_d_ayo" class=" hover:text-blue-200 transition duration-300">
+                            <i class="fab fa-twitter si text-1xl"></i>
+                        </a>
+                        <a href="https://www.instagram.com/deeygitalstudio/" class=" hover:text-blue-200 transition duration-300">
+                            <i class="fab fa-instagram si text-1xl"></i>
+                        </a>
+                        <a href="https://web.facebook.com/dayo.akinsdbeats/" class=" hover:text-blue-200 transition duration-300">
+                            <i class="fab fa-facebook si text-1xl"></i>
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=8026650502" class=" hover:text-blue-200 transition duration-300">
+                            <i class="fab fa-whatsapp si text-1xl"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 mt-6 lg:mt-0  flex  items-center justify-center reveal">
+                    <div class=" w-100 flex relative items-center justify-center  floating-animation">
+                      <img src="https://static.vecteezy.com/system/resources/previews/011/153/368/original/3d-website-developer-working-on-laptop-illustration-png.png" class="sm:mb-3" alt="">
+                      <div class="code-style absolute bottom-10 lg:bottom-50 text-base font-semibold">
+                        <p class="status text-sm"><span class="text-pink-600">const</span> <span class="text-yellow-500">status</span>  = 'Available for hire';</p>
+                    </div>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-gray-50 dark:bg-gray-800/50 scroll-container scroll-y">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 dark:text-white mb-4 reveal">About Me</h2>
+                <div class="w-24 h-1 bg-blue-600 dark:bg-blue-500 mx-auto rounded reveal"></div>
+            </div>
+                    
+            <div class="grid lg:grid-cols-2 gap-16 items-center mb-16">
+                <div class="reveal">
+                    <div class="relative mb-6">
+                        <div class="absolute square1 -left-6 -top-6 w-16 h-16 bg-blue-200 dark:bg-blue-900/90 rounded-2xl rotate-12 z-0"></div>
+                        <div class="absolute square2 -right-6 -bottom-6 w-16 h-16 bg-yellow-100 dark:bg-purple-900/90 rounded-2xl -rotate-12 z-0"></div>
+                        <div class="relative bg-gray-100 dark:bg-gray-800 p-8 rounded-2xl shadow-lg z-10">
+                            <p class="text-md text-gray-700 dark:text-gray-300 leading-relaxed">
+                                With 3+ years of experience, I'm a passionate Frontend Developer specializing in user-centric, responsive web interfaces using HTML, CSS, JavaScript, React, and Firebase. I also have working knowledge of Node.js, Express, and MongoDB, and i am expanding my skills with the MERN stack through online courses and personal projects. My dedication to continuous learning includes UI/UX design (Figma, Adobe XD, Protopie) and staying current by attending industry events and exploring emerging frameworks.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                        
+                <div class="grid grid-cols-2 gap-6 reveal">
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-blue-100 dark:border-blue-900/50 hover:shadow-lg transition duration-300">
+                        <div class="text-blue-600 dark:text-blue-400 mb-4">
+                            <i class="fas fa-code icons text-3xl"></i>
+                        </div>
+                        <h3 class="font-bold text-gray-900 dark:text-white text-md mb-2">Clean Code</h3>
+                        <p class="text-gray-600 text-sm dark:text-gray-300">Writing maintainable, well-documented code with best practices.</p>
+                    </div>
+                    
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-blue-100 dark:border-blue-900/50 hover:shadow-lg transition duration-300">
+                        <div class="text-blue-600 dark:text-blue-400 mb-4">
+                            <i class="fas fa-layer-group icons text-3xl"></i>
+                        </div>
+                        <h3 class="font-bold text-gray-900 dark:text-white text-md mb-2">Frontend | Backend</h3>
+                        <p class="text-gray-600 text-sm  dark:text-gray-300">End-to-end development from UI design to database architecture.</p>
+                    </div>
+                    
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-blue-100 dark:border-blue-900/50 hover:shadow-lg transition duration-300">
+                        <div class="text-blue-600 dark:text-blue-400 mb-4">
+                            <i class="fas fa-users icons text-3xl"></i>
+                        </div>
+                        <h3 class="font-bold text-gray-900 dark:text-white text-md mb-2">Team Player</h3>
+                        <p class="text-gray-600 text-sm  dark:text-gray-300">Collaborative approach with excellent communication skills.</p>
+                    </div>
+                    
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md border border-blue-100 dark:border-blue-900/50 hover:shadow-lg transition duration-300">
+                        <div class="text-blue-600 dark:text-blue-400 mb-4">
+                            <i class="fas fa-puzzle-piece icons text-3xl"></i>
+                        </div>
+                        <h3 class="font-bold text-gray-900 dark:text-white text-md mb-2">Problem Solver</h3>
+                        <p class="text-gray-600 text-sm  dark:text-gray-300">Creative solutions to complex technical challenges.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 bg-white dark:bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 dark:text-white mb-4 reveal">Technical Skills</h2>
+                <div class="w-24 h-1 bg-blue-600 dark:bg-blue-500 mx-auto rounded reveal"></div>
+            </div>
+                    
+            <!-- Skill Categories -->
+            <div class="grid lg:grid-cols-3 gap-8 mb-12">
+                <div class="reveal">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-blue-100 dark:bg-blue-900/30 p-3 rounded-lg mr-4">
+                            <i class="fas fa-desktop icons text-blue-600 dark:text-blue-400 text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 dark:text-white">Frontend</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-3 mb-6">
+                        <span class="skill-badge bg-blue-200 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-4 py-2 rounded-full text-xs font-semibold shadow-sm">JavaScript</span>
+                        <span class="skill-badge bg-blue-200 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-4 py-2 rounded-full text-xs font-semibold shadow-sm">TypeScript</span>
+                        <span class="skill-badge bg-blue-200 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-4 py-2 rounded-full text-xs font-semibold shadow-sm">React</span>
+                        <span class="skill-badge bg-blue-200 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-4 py-2 rounded-full text-xs font-semibold shadow-sm">JQuery</span>
+                        <span class="skill-badge bg-blue-200 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-4 py-2 rounded-full text-xs font-semibold shadow-sm">HTML/CSS3</span>
+                        <span class="skill-badge bg-blue-200 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-4 py-2 rounded-full text-xs font-semibold shadow-sm">Tailwind</span>
+                        <span class="skill-badge bg-blue-200 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-4 py-2 rounded-full text-xs font-semibold shadow-sm">Bootstrap</span>
+                        <span class="skill-badge bg-blue-200 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-4 py-2 rounded-full text-xs font-semibold shadow-sm">Sass</span>
+                    </div>
+                    <div class="space-y-3">
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-sm font-semibold text-gray-700 dark:text-gray-300">React</span>
+                                <span class="text-sm font-semibold text-gray-600 dark:text-gray-400">65%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
+                                <div class="skill-progress bg-blue-600 h-2.5 rounded-full" style="width: 65%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-sm font-semibold text-gray-700 dark:text-gray-300">JavaScript | TS</span>
+                                <span class="text-sm font-semibold text-gray-600 dark:text-gray-400">70%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
+                                <div class="skill-progress bg-blue-600 h-2.5 rounded-full" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-sm font-semibold text-gray-700 dark:text-gray-300">CSS & Frameworks</span>
+                                <span class="text-sm font-semibold text-gray-600 dark:text-gray-400">90%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
+                                <div class="skill-progress bg-blue-600 h-2.5 rounded-full" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        
+                <div class="reveal">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-blue-100 dark:bg-blue-900/30 p-3 rounded-lg mr-4">
+                            <i class="fas fa-server icons text-blue-600 dark:text-blue-400 text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 dark:text-white">Backend</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-3 mb-6">
+                        <span class="skill-badge bg-blue-200 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-4 py-2 rounded-full text-xs font-semibold  shadow-sm">Node.js</span>
+                        <span class="skill-badge bg-blue-200 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-4 py-2 rounded-full text-xs font-semibold  shadow-sm">Express</span>
+                        <span class="skill-badge bg-blue-200 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-4 py-2 rounded-full text-xs font-semibold shadow-sm">Python</span>
+                        <span class="skill-badge bg-blue-200 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-4 py-2 rounded-full text-xs font-semibold shadow-sm">Flask</span>
+                        <span class="skill-badge bg-blue-200 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-4 py-2 rounded-full text-xs font-semibold shadow-sm">MongoDB</span>
+                        <span class="skill-badge bg-blue-200 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-4 py-2 rounded-full text-xs font-semibold shadow-sm">MySQL</span>
+                        <span class="skill-badge bg-blue-200 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-4 py-2 rounded-full text-xs font-semibold shadow-sm">REST APIs</span>
+                        <span class="skill-badge bg-blue-200 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-4 py-2 rounded-full text-  xs font-semibold shadow-sm">Firebase</span>
+                    </div>
+                    <div class="space-y-3">
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-sm font-semibold text-gray-700 dark:text-gray-300">Node.js/Express</span>
+                                <span class="text-sm font-semibold text-gray-600 dark:text-gray-400">50%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
+                                <div class="skill-progress bg-blue-600 h-2.5 rounded-full" style="width: 50%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-sm font-semibold text-gray-700 dark:text-gray-300">Database Design</span>
+                                <span class="text-sm font-semibold text-gray-600 dark:text-gray-400">55%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
+                                <div class="skill-progress bg-blue-600 h-2.5 rounded-full" style="width: 55%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-sm font-semibold text-gray-700 dark:text-gray-300">API Development</span>
+                                <span class="text-sm font-semibold text-gray-600 dark:text-gray-400">60%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
+                                <div class="skill-progress bg-blue-600 h-2.5 rounded-full" style="width: 60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        
+                <div class="reveal">
+                    <div class="flex items-center mb-6">
+                        <div class="bg-blue-100 dark:bg-blue-900/30 p-3 rounded-lg mr-4">
+                            <i class="fas fa-cloud icons text-blue-600 dark:text-blue-400 text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 dark:text-white">Softwares</h3>
+                    </div>
+                    <div class="flex flex-wrap gap-3 mb-6">
+                        <span class="skill-badge bg-blue-200 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-4 py-2 rounded-full text-xs font-semibold shadow-sm">Figma</span>
+                        <span class="skill-badge bg-blue-200 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-4 py-2 rounded-full text-xs font-semibold shadow-sm">Adobe Xd</span>
+                        <span class="skill-badge bg-blue-200 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-4 py-2 rounded-full text-xs font-semibold shadow-sm">Git |Github</span>
+                        <span class="skill-badge bg-blue-200 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-4 py-2 rounded-full text-xs font-semibold shadow-sm">After Effects</span>
+                        <span class="skill-badge bg-blue-200 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-4 py-2 rounded-full text-xs font-semibold shadow-sm">Photoshop</span>
+                        <span class="skill-badge bg-blue-200 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-4 py-2 rounded-full text-xs font-semibold shadow-sm">Premier Pro</span>
+                        <span class="skill-badge bg-blue-200 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-4 py-2 rounded-full text-xs font-semibold shadow-sm">Postman</span>
+                    </div>
+                    <div class="space-y-3">
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-sm font-semibold text-gray-700 dark:text-gray-300">Design and Prototyping</span>
+                                <span class="text-sm font-semibold text-gray-600 dark:text-gray-400">70%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
+                                <div class="skill-progress bg-blue-600 h-2.5 rounded-full" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-sm font-semibold text-gray-700 dark:text-gray-300">Photo and Video Editing</span>
+                                <span class="text-sm font-semibold text-gray-600 dark:text-gray-400">85%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
+                                <div class="skill-progress bg-blue-600 h-2.5 rounded-full" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-sm font-sembold text-gray-700 dark:text-gray-300">Testing & Deployment</span>
+                                <span class="text-sm font-semibold text-gray-600 dark:text-gray-400">88%</span>
+                            </div>
+                            <div class="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2.5">
+                                <div class="skill-progress bg-blue-600 h-2.5 rounded-full" style="width: 88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-gray-50 dark:bg-gray-800/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 dark:text-white mb-4 reveal">Featured Projects</h2>
+                <div class="w-24 h-1 bg-blue-600 dark:bg-blue-500 mx-auto rounded reveal"></div>
+            </div>
+                    
+            <div class="grid lg:grid-cols-3 gap-8 mb-12">
+                <!-- Project 1 -->
+                <div class="project-card bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="project-card-1 h-48 flex items-center justify-center relative">
+                        <div class="absolute inset-0 bg-gradient-to-br from-blue-600/90 to-indigo-700/90"></div>
+                        <i class="fas fa-hospital text-white icons text-6xl relative z-10"></i>
+                        <div class="absolute bottom-0 left-0 right-0 p-4 bg-black/30 text-white text-sm font-light z-10">
+                            <div class="flex justify-between">
+                                <span>A touch of Home</span>
+                                <span>2023</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-md font-bold text-gray-900 dark:text-white mb-3">A Care Home Website</h3>
+                        <p class="text-gray-600 text-sm dark:text-gray-300 mb-4">A carehome website for a US firm .</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-3 py-1 rounded-full text-xs font-medium">HTML</span>
+                            <span class="bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-400 px-3 py-1 rounded-full text-xs font-medium">CSS</span>
+                            <span class="bg-yellow-100 dark:bg-yellow-900/30 text-yellow-800 dark:text-yellow-400 px-3 py-1 rounded-full text-xs font-medium">JavaScript</span>
+                            <span class="bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-400 px-3 py-1 rounded-full text-xs font-medium">Bootstrap</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <a href="https://www.atouchofhome.care/" class="text-blue-600 text-xs dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 flex items-center">
+                                <i class="fas fa-external-link-alt mr-2"></i>Live Demo
+                            </a>
+                            <a href="#" class="text-gray-600 text-xs dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-300 flex items-center">
+                                <i class="fab fa-github mr-2"></i>Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                        
+                <!-- Project 2 -->
+                <div class="project-card bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="project-card-2 h-48 flex items-center justify-center relative">
+                        <div class="absolute inset-0 bg-gradient-to-br from-cyan-600/90 to-blue-700/90"></div>
+                        <i class="fas fa-video icons text-white text-6xl relative z-10"></i>
+                        <div class="absolute bottom-0 left-0 right-0 p-4 bg-black/30 text-white text-sm font-light z-10">
+                            <div class="flex justify-between">
+                                <span>Movie Website</span>
+                                <span>2025</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-md font-bold text-gray-900 dark:text-white mb-3">Netflix Clone</h3>
+                        <p class="text-gray-600 text-sm dark:text-gray-300 mb-4">Cloning the official Website of Netflix </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-3 py-1 rounded-full text-xs font-medium">React js</span>
+                            <span class="bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-400 px-3 py-1 rounded-full text-xs font-medium">API</span>
+                            <span class="bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-400 px-3 py-1 rounded-full text-xs font-medium">Firebase</span>
+                            <span class="bg-pink-100 dark:bg-pink-900/30 text-pink-800 dark:text-pink-400 px-3 py-1 rounded-full text-xs font-medium">Bootstrap</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <a href="https://deeygitalstudio.github.io/Netflix-clone/#/" class="text-blue-600 text-xs dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 flex items-center">
+                                <i class="fas fa-external-link-alt mr-2"></i>Live Demo
+                            </a>
+                            <a href="https://github.com/deeygitalstudio/Netflix-clone" class="text-gray-600 text-xs dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-300 flex items-center">
+                                <i class="fab fa-github mr-2"></i>Source Code
+                            </a>
+                        </div>
+                    </div>      
+                </div>
+                        
+                <!-- Project 3 -->
+                <div class="project-card bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="project-card-3 h-48 flex items-center justify-center relative">
+                        <div class="absolute inset-0 bg-gradient-to-br from-purple-600/90 to-pink-700/90"></div>
+                        <i class="fas fa-cutlery icons text-white text-6xl relative z-10"></i>
+                        <div class="absolute bottom-0 left-0 right-0 p-4 bg-black/30 text-white text-sm font-light z-10">
+                            <div class="flex justify-between">
+                                <span>Recipe</span>
+                                <span>2024</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-md font-bold text-gray-900 dark:text-white mb-3">Recipe Website</h3>
+                        <p class="text-gray-600 text-sm dark:text-gray-300 mb-4">Recipe website for different local and international dishes.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-3 py-1 rounded-full text-xs font-medium">HTML</span>
+                            <span class="bg-orange-100 dark:bg-orange-900/30 text-orange-800 dark:text-orange-400 px-3 py-1 rounded-full text-xs font-medium">CSS</span>
+                            <span class="bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-400 px-3 py-1 rounded-full text-xs font-medium">JavaScript</span>
+                            <span class="bg-teal-100 dark:bg-teal-900/30 text-teal-800 dark:text-teal-400 px-3 py-1 rounded-full text-xs font-medium">API</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <a href="https://deeygitalstudio.github.io/Food-Recipe/" class="text-blue-600 text-xs dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 flex items-center">
+                                <i class="fas fa-external-link-alt mr-2"></i>Live Demo
+                            </a>
+                            <a href="https://github.com/deeygitalstudio/Food-Recipe" class="text-gray-600 text-xs dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-300 flex items-center">
+                                <i class="fab fa-github mr-2"></i>Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Project 4 -->
+                <div class="project-card hiddens bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="project-card-3 h-48 flex items-center justify-center relative">
+                        <div class="absolute inset-0 bg-gradient-to-br from-cyan-600/90 to-blue-700/90"></div>
+                        <i class="fas fa-store icons text-white text-6xl relative z-10"></i>
+                        <div class="absolute bottom-0 left-0 right-0 p-4 bg-black/30 text-white text-sm font-light z-10">
+                            <div class="flex justify-between">
+                                <span>Product Store</span>
+                                <span>2025</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-md font-bold text-gray-900 dark:text-white mb-3">Product Website</h3>
+                        <p class="text-gray-600 text-sm dark:text-gray-300 mb-4">CRUD Operations</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-3 py-1 rounded-full text-xs font-medium">React</span>
+                            <span class="bg-orange-100 dark:bg-orange-900/30 text-orange-800 dark:text-orange-400 px-3 py-1 rounded-full text-xs font-medium">Node JS</span>
+                            <span class="bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-400 px-3 py-1 rounded-full text-xs font-medium">Express</span>
+                            <span class="bg-teal-100 dark:bg-teal-900/30 text-teal-800 dark:text-teal-400 px-3 py-1 rounded-full text-xs font-medium">Mongo DB</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <a href="https://mern-crud-pzsx.onrender.com/" class="text-blue-600 text-xs dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 flex items-center">
+                                <i class="fas fa-external-link-alt mr-2"></i>Live Demo
+                            </a>
+                            <a href="https://github.com/deeygitalstudio/MERN-Crud" class="text-gray-600 text-xs dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-300 flex items-center">
+                                <i class="fab fa-github mr-2"></i>Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Project 5 -->
+                <div class="project-card hiddens bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="project-card-3 h-48 flex items-center justify-center relative">
+                        <div class="absolute inset-0 bg-gradient-to-br from-blue-600/90 to-indigo-700/90"></div>
+                        <i class="fas fa-book icons text-white text-6xl relative z-10"></i>
+                        <div class="absolute bottom-0 left-0 right-0 p-4 bg-black/30 text-white text-sm font-light z-10">
+                            <div class="flex justify-between">
+                                <span>Quiz App</span>
+                                <span>2025</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-md font-bold text-gray-900 dark:text-white mb-3">Quiz Taking App</h3>
+                        <p class="text-gray-600 text-sm dark:text-gray-300 mb-4">Digitalized Examinations</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-3 py-1 rounded-full text-xs font-medium">HTML</span>
+                            <span class="bg-orange-100 dark:bg-orange-900/30 text-orange-800 dark:text-orange-400 px-3 py-1 rounded-full text-xs font-medium">CSS</span>
+                            <span class="bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-400 px-3 py-1 rounded-full text-xs font-medium">JavaScript</span>
+                   
+                        </div>
+                        <div class="flex justify-between">
+                            <a href="https://deeygitalstudio.github.io/LearnlyApp/" class="text-blue-600 text-xs dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 flex items-center">
+                                <i class="fas fa-external-link-alt mr-2"></i>Live Demo
+                            </a>
+                            <a href="https://github.com/deeygitalstudio/LearnlyApp" class="text-gray-600 text-xs dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-300 flex items-center">
+                                <i class="fab fa-github mr-2"></i>Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Project 6 -->
+                <div class="project-card hiddens bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="project-card-3 h-48 flex items-center justify-center relative">
+                        <div class="absolute inset-0 bg-gradient-to-br from-blue-600/90 to-indigo-700/90"></div>
+                        <i class="fas fa-image icons text-white text-6xl relative z-10"></i>
+                        <div class="absolute bottom-0 left-0 right-0 p-4 bg-black/30 text-white text-sm font-light z-10">
+                            <div class="flex justify-between">
+                                <span>Image Search Engine</span>
+                                <span>2023</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-md font-bold text-gray-900 dark:text-white mb-3">Image Search Engine</h3>
+                        <p class="text-gray-600 text-sm dark:text-gray-300 mb-4">Search for any image of your choice</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-3 py-1 rounded-full text-xs font-medium">HTML</span>
+                            <span class="bg-orange-100 dark:bg-orange-900/30 text-orange-800 dark:text-orange-400 px-3 py-1 rounded-full text-xs font-medium">CSS</span>
+                            <span class="bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-400 px-3 py-1 rounded-full text-xs font-medium">JavaScript</span>
+                            <span class="bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-3 py-1 rounded-full text-xs font-medium">API</span>
+                   
+                        </div>
+                        <div class="flex justify-between">
+                            <a href="https://deeygitalstudio.github.io/Image-Search-Engine/" class="text-blue-600 text-xs dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 flex items-center">
+                                <i class="fas fa-external-link-alt mr-2"></i>Live Demo
+                            </a>
+                            <a href="https://github.com/deeygitalstudio/Image-Search-Engine" class="text-gray-600 text-xs dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-300 flex items-center">
+                                <i class="fab fa-github mr-2"></i>Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+               
+                  <!-- Project 7 -->
+                  <div class="project-card hiddens bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="project-card-3 h-48 flex items-center justify-center relative">
+                        <div class="absolute inset-0 bg-gradient-to-br from-purple-600/90 to-pink-700/90"></div>
+                        <i class="fas fa-compass icons text-white text-6xl relative z-10"></i>
+                        <div class="absolute bottom-0 left-0 right-0 p-4 bg-black/30 text-white text-sm font-light z-10">
+                            <div class="flex justify-between">
+                                <span>Patrol Tracker</span>
+                                <span>2024</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-md font-bold text-gray-900 dark:text-white mb-3">Patrol Tracker</h3>
+                        <p class="text-gray-600 text-sm dark:text-gray-300 mb-4">Halogen Security Patrol Tracker build to track and document patrol of TSS and TSL</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-3 py-1 rounded-full text-xs font-medium">React</span>
+                            <span class="bg-orange-100 dark:bg-orange-900/30 text-orange-800 dark:text-orange-400 px-3 py-1 rounded-full text-xs font-medium">CSS</span>
+                            <span class="bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-400 px-3 py-1 rounded-full text-xs font-medium">Bootstrap</span>
+                            <span class="bg-teal-100 dark:bg-teal-900/30 text-teal-800 dark:text-teal-400 px-3 py-1 rounded-full text-xs font-medium">Firebase</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <a href="https://deeygitalstudio.github.io/patrol-tracker/" class="text-blue-600 text-xs dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 flex items-center">
+                                <i class="fas fa-external-link-alt mr-2"></i>Live Demo
+                            </a>
+                            <a href="https://github.com/deeygitalstudio/patrol-tracker" class="text-gray-600 text-xs dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-300 flex items-center">
+                                <i class="fab fa-github mr-2"></i>Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                    <!-- Project 8 -->
+                    <div class="project-card hiddens bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                        <div class="project-card-3 h-48 flex items-center justify-center relative">
+                            <div class="absolute inset-0 bg-gradient-to-br from-cyan-600/90 to-blue-700/90"></div>
+                            <i class="fas fa-edit icons text-white text-6xl relative z-10"></i>
+                            <div class="absolute bottom-0 left-0 right-0 p-4 bg-black/30 text-white text-sm font-light z-10">
+                                <div class="flex justify-between">
+                                    <span>Note App</span>
+                                    <span>2025</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <h3 class="text-md font-bold text-gray-900 dark:text-white mb-3">Note Taking Web App</h3>
+                            <p class="text-gray-600 text-sm dark:text-gray-300 mb-4">Document your Notes</p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-3 py-1 rounded-full text-xs font-medium">HTML</span>
+                                <span class="bg-orange-100 dark:bg-orange-900/30 text-orange-800 dark:text-orange-400 px-3 py-1 rounded-full text-xs font-medium">CSS</span>
+                                <span class="bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-400 px-3 py-1 rounded-full text-xs font-medium">JavaScript</span>
+                 
+                            </div>
+                            <div class="flex justify-between">
+                                <a href="https://github.com/deeygitalstudio/Docs-App" class="text-blue-600 text-xs dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 flex items-center">
+                                    <i class="fas fa-external-link-alt mr-2"></i>Live Demo
+                                </a>
+                                <a href="https://github.com/deeygitalstudio/MERN-Crud" class="text-gray-600 text-xs dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-300 flex items-center">
+                                    <i class="fab fa-github mr-2"></i>Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                      <!-- Project 9 -->
+                  <div class="project-card hiddens bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="project-card-3 h-48 flex items-center justify-center relative">
+                        <div class="absolute inset-0 bg-gradient-to-br from-purple-600/90 to-pink-700/90"></div>
+                        <i class="fas fa-compass icons text-white text-6xl relative z-10"></i>
+                        <div class="absolute bottom-0 left-0 right-0 p-4 bg-black/30 text-white text-sm font-light z-10">
+                            <div class="flex justify-between">
+                                <span>Budget Tracker</span>
+                                <span>2024</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-md font-bold text-gray-900 dark:text-white mb-3">Budget Tracker</h3>
+                        <p class="text-gray-600 text-sm dark:text-gray-300 mb-4">A simple Budget Traceker for you daily inflows</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-3 py-1 rounded-full text-xs font-medium">React</span>
+                            <span class="bg-orange-100 dark:bg-orange-900/30 text-orange-800 dark:text-orange-400 px-3 py-1 rounded-full text-xs font-medium">CSS</span>
+                            <span class="bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-400 px-3 py-1 rounded-full text-xs font-medium">Bootstrap</span>
+                            <span class="bg-teal-100 dark:bg-teal-900/30 text-teal-800 dark:text-teal-400 px-3 py-1 rounded-full text-xs font-medium">Firebase</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <a href="https://deeygitalstudio.github.io/Budget-Tracker/" class="text-blue-600 text-xs dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 flex items-center">
+                                <i class="fas fa-external-link-alt mr-2"></i>Live Demo
+                            </a>
+                            <a href="https://github.com/deeygitalstudio/Budget-Tracker" class="text-gray-600 text-xs dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-300 flex items-center">
+                                <i class="fab fa-github mr-2"></i>Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                 <!-- Project 10 -->
+                 <div class="project-card hiddens bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition duration-300">
+                    <div class="project-card-3 h-48 flex items-center justify-center relative">
+                        <div class="absolute inset-0 bg-gradient-to-br from-blue-600/90 to-indigo-700/90"></div>
+                        <i class="fas fa-image icons text-white text-6xl relative z-10"></i>
+                        <div class="absolute bottom-0 left-0 right-0 p-4 bg-black/30 text-white text-sm font-light z-10">
+                            <div class="flex justify-between">
+                                <span>Age Calculator</span>
+                                <span>2023</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-md font-bold text-gray-900 dark:text-white mb-3">A Simple Age Calculator</h3>
+                        <p class="text-gray-600 text-sm dark:text-gray-300 mb-4">Calculate your age to see you exact age, month, days, hours and seconds</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-3 py-1 rounded-full text-xs font-medium">HTML</span>
+                            <span class="bg-orange-100 dark:bg-orange-900/30 text-orange-800 dark:text-orange-400 px-3 py-1 rounded-full text-xs font-medium">CSS</span>
+                            <span class="bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-400 px-3 py-1 rounded-full text-xs font-medium">JavaScript</span>
+                            <span class="bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-400 px-3 py-1 rounded-full text-xs font-medium">API</span>
+                   
+                        </div>
+                        <div class="flex justify-between">
+                            <a href="https://deeygitalstudio.github.io/deeygitalstudio/age-calculator-app-main/" class="text-blue-600 text-xs dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 flex items-center">
+                                <i class="fas fa-external-link-alt mr-2"></i>Live Demo
+                            </a>
+                            <a href="https://github.com/deeygitalstudio/deeygitalstudio/tree/main/Age%20Caculator%20Project" class="text-gray-600 text-xs dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-300 flex items-center">
+                                <i class="fab fa-github mr-2"></i>Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+                    
+            <div class="text-center reveal">
+                <button id="showMoreBtn" class="border-2 border-blue-600 dark:border-blue-500 text-blue-600 dark:text-blue-400 px-8 py-3 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/50 transition duration-300 font-medium">
+                    View More Projects <i class="fas fa-chevron-down ml-2 animate-bounce-slow"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <!-- Work Experience Section -->
+    <section id="experience" class="py-16 bg-white dark:bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 dark:text-white mb-4 reveal">Work Experience</h2>
+                <div class="w-24 h-1 bg-blue-600 dark:bg-blue-500 mx-auto rounded reveal"></div>
+            </div>
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col lg:flex-row items-center justify-between gap-2">
+                    <div class=" lg:pr-12 reveal">
+                        <div class="reveal mb-3">
+                            <div class="bg-gray-50 dark:bg-gray-800 p-6 rounded-xl shadow-md relative border-l-4 border-blue-600 dark:border-blue-500 pl-6 ml-1">
+                                <div class="absolute -left-4 top-6 w-8 h-8 rounded-full bg-blue-600 dark:bg-blue-500 flex items-center justify-center text-white">
+                                    <i class="fas fa-code-branch icons"></i>
+                                </div>
+                                <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                                    <div>
+                                        <h3 class="text-md font-bold text-gray-900 dark:text-white">Frontend Developer</h3>
+                                        <p class="text-blue-600 dark:text-blue-400 text-sm font-medium">Scott Enterprise</p>
+                                    </div>
+                                    <span class="text-gray-600 dark:text-gray-400 mt-2 md:mt-0 text-xs font-semibold bg-blue-50 dark:bg-blue-900/30 px-3 py-1 rounded-full">2023 - Present</span>
+                                </div>
+                                <p class="text-gray-700 text-sm dark:text-gray-300">
+                                    Leading development and management of their official  website using HTML CSS and JavaScript. 
+                                    Mentoring junior developers and implementing best practices for code quality and performance.
+                                    <ul class="mt-4 space-y-2 text-gray-600 dark:text-gray-400 text-xs">
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check-circle text-blue-600 dark:text-blue-400 mr-2 mt-1"></i>
+                                            <span>Reduced page load times by 60% through performance optimization</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check-circle text-blue-600 dark:text-blue-400 mr-2 mt-1"></i>
+                                            <span>Site Maintenance and contents Updates</span>
+                                        </li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+                                
+                        <div class="reveal mb-3">
+                            <div class="bg-gray-50 dark:bg-gray-800 p-6 rounded-xl shadow-md relative border-l-4 border-blue-600 dark:border-blue-500 pl-6 ml-1">
+                                <div class="absolute -left-4 top-6 w-8 h-8 rounded-full bg-blue-600 dark:bg-blue-500 flex items-center justify-center text-white">
+                                    <i class="fas fa-code-branch icons"></i>
+                                </div>
+                                <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                                    <div>
+                                        <h3 class="text-md font-bold text-gray-900 dark:text-white">UI UX Design Instructor</h3>
+                                        <p class="text-blue-600 dark:text-blue-400 text-sm font-medium">CwwTechAfrica</p>
+                                    </div>
+                                    <span class="text-gray-600 text-xs font-semibold dark:text-gray-400 mt-2 md:mt-0 text-sm bg-blue-50 dark:bg-blue-900/30 px-3 py-1 rounded-full">Voluntering since 2022</span>
+                                </div>
+                                <p class="text-gray-700 text-sm dark:text-gray-300">
+                                    Built and maintained multiple client applications using modern JavaScript frameworks. 
+                                    Collaborated with design teams to implement pixel-perfect UI components.
+                                    <ul class="mt-4 space-y-2 text-gray-600 dark:text-gray-400 text-xs">
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check-circle text-blue-600 dark:text-blue-400 mr-2 mt-1"></i>
+                                            <span>Trained 2500+ students in UI UX design in a 6 weeks program using Figma, Adobe Xd, Protopie and core UX principles</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check-circle text-blue-600 dark:text-blue-400 mr-2 mt-1"></i>
+                                            <span>Mentored bootcamp students by leading engaging tech activites and mentoring through world project development</span>
+                                        </li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="reveal mb-3">
+                            <div class="bg-gray-50 dark:bg-gray-800 p-6 rounded-xl shadow-md relative border-l-4 border-blue-600 dark:border-blue-500 pl-6 ml-1">
+                                <div class="absolute -left-4 top-6 w-8 h-8 rounded-full bg-blue-600 dark:bg-blue-500 flex items-center justify-center text-white">
+                                    <i class="fas fa-code-branch icons"></i>
+                                </div>
+                                <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                                    <div>
+                                        <h3 class="text-md font-bold text-gray-900 dark:text-white">Web Designer</h3>
+                                        <p class="text-blue-600 dark:text-blue-400 text-sm font-medium">Halogen Group</p>
+                                    </div>
+                                    <span class="text-gray-600 text-xs font-semibold dark:text-gray-400 mt-2 md:mt-0 text-sm bg-blue-50 dark:bg-blue-900/30 px-3 py-1 rounded-full">2018 - 2020</span>
+                                </div>
+                                <p class="text-gray-700 text-sm dark:text-gray-300">
+                               Enhanced patrol monitoring for the control room department with an electronic data collection form, improving efficiency and accuracy
+                                    <ul class="mt-4 space-y-2 text-gray-600 dark:text-gray-400 text-xs">
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check-circle text-blue-600 dark:text-blue-400 mr-2 mt-1"></i>
+                                            <span>Designed User Friendly Website and mobile app UIs for Halogen Products, ensuring seamless cross platform user experience</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check-circle text-blue-600 dark:text-blue-400 mr-2 mt-1"></i>
+                                            <span>Conduct regular website audits to identify and implement improvements for compatibility, security and user friendliness</span>
+                                        </li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="reveal">
+                            <div class="bg-gray-50 dark:bg-gray-800 p-6 rounded-xl shadow-md relative border-l-4 border-blue-600 dark:border-blue-500 pl-6 ml-1">
+                                <div class="absolute -left-4 top-6 w-8 h-8 rounded-full bg-blue-600 dark:bg-blue-500 flex items-center justify-center text-white">
+                                    <i class="fas fa-code-branch icons"></i>
+                                </div>
+                                <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                                    <div>
+                                        <h3 class="text-md font-bold text-gray-900 dark:text-white">Administrative Executive | Web Administrator</h3>
+                                        <p class="text-blue-600 dark:text-blue-400 text-sm font-medium">Tenece Professional Services</p>
+                                    </div>
+                                    <span class="text-gray-600 text-xs font-semibold dark:text-gray-400 mt-2 md:mt-0 text-sm bg-blue-50 dark:bg-blue-900/30 px-3 py-1 rounded-full">2018 - 2020</span>
+                                </div>
+                                <p class="text-gray-700 text-sm dark:text-gray-300">
+                                   Collaborated with designers and developers to enhance website navigation and uder interface, delivering a vastly improved user experience
+                                    <ul class="mt-4 space-y-2 text-gray-600 dark:text-gray-400 text-xs">
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check-circle text-blue-600 dark:text-blue-400 mr-2 mt-1"></i>
+                                            <span>Crafted engaging graphics for product pages and marketing materials, ensuring brand consistency and enhancing user engagement</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <i class="fas fa-check-circle text-blue-600 dark:text-blue-400 mr-2 mt-1"></i>
+                                            <span>Conduct regular website audits to identify and implement improvements for compatibility, security and user friendliness</span>
+                                        </li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <!-- <div class="lg:w-1/2 lg:pr-12 reveal">
+                        <img src="https://static.vecteezy.com/system/resources/previews/011/153/363/original/3d-web-developer-working-on-project-illustration-png.png" alt="" class="w-100 image" >
+                    </div> -->
+                    </div>
+                    </div>      
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 gradient-bg text-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold mb-6 reveal">Let's Work Together</h2>
+            <p class="text-xl mb-8 reveal">
+                I'm always interested in new opportunities and exciting projects. 
+                Let's discuss how we can bring your ideas to life.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-6 justify-center mb-8">
+                <a href="mailto:deeyakin@gmail.com" class="bg-white text-blue-600 px-8 py-4 rounded-lg hover:bg-gray-100 transition duration-300 font-medium flex items-center justify-center reveal">
+                    <i class="fas fa-envelope icons mr-3 text-xl"></i>Send Email
+                </a>
+                <a href="#" id="btn"  class="border-2 border-white dark:border-white text-white dark:text-white px-6 py-3 rounded-lg hover:bg-gray-100 hover:text-blue-600 transition duration-300 font-medium reveal">
+                    <i class="fas fa-download icons mr-3 text-xl"></i>Download CV
+                </a>
+    
+            </div>
+            <div class="flex justify-center space-x-8 reveal">
+                <a href="https://github.com/deeygitalstudio" class="text-white hover:text-blue-200 transition duration-300">
+                    <i class="fab fa-github si text-3xl"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/akinbohun-ifedayo-06b272130/" class="text-white hover:text-blue-200 transition duration-300">
+                    <i class="fab fa-linkedin si text-3xl"></i>
+                </a>
+                <a href="https://twitter.com/ife_d_ayo" class="text-white hover:text-blue-200 transition duration-300">
+                    <i class="fab fa-twitter si text-3xl"></i>
+                </a>
+                <a href="https://www.instagram.com/deeygitalstudio/" class="text-white hover:text-blue-200 transition duration-300">
+                    <i class="fab fa-instagram si text-3xl"></i>
+                </a>
+                <a href="https://web.facebook.com/dayo.akinsdbeats/" class="text-white hover:text-blue-200 transition duration-300">
+                    <i class="fab fa-facebook si text-3xl"></i>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=8026650502" class="text-white hover:text-blue-200 transition duration-300">
+                    <i class="fab fa-whatsapp si text-3xl"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <span class="text-xl icons font-bold text-blue-400">&lt;AI/&gt;</span>
+                    <p class="mt-2 text-gray-400 text-xs">Crafting digital experiences with clean code and creativity</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="https://github.com/deeygitalstudio" class="text-gray-400 hover:text-white transition">
+                        <i class="fab fa-github si"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/akinbohun-ifedayo-06b272130/" class="text-gray-400 hover:text-white transition">
+                        <i class="fab fa-linkedin si"></i>
+                    </a>
+                    <a href="https://twitter.com/ife_d_ayo" class="text-gray-400 hover:text-white transition">
+                        <i class="fab fa-twitter si"></i>
+                    </a>
+                    <a href="https://www.instagram.com/deeygitalstudio/" class="text-gray-400 hover:text-white transition">
+                        <i class="fab fa-instagram si"></i>
+                    </a>
+                    <a href="https://web.facebook.com/dayo.akinsdbeats/" class="text-gray-400 hover:text-white transition">
+                        <i class="fab fa-facebook si"></i>
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=8026650502" class="text-gray-400 hover:text-white transition">
+                        <i class="fab fa-whatsapp si"></i>
+                    </a>
+                </div>
+        
+            </div>
+            <div class="mt-8 text-center text-gray-400 text-xs">
+                &copy; <script>document.write(new Date().getFullYear())</script> Akinbohun Ifedayo. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="./app.js " type="module"></script>
+<script>
+
+</script> 
+
+</body>
 </html>
