@@ -35,66 +35,66 @@ animate('.status', {
 //   });
 
 
-const mediaQuery = window.matchMedia('(max-width: 500px)');
+// const mediaQuery = window.matchMedia('(max-width: 500px)');
 
-function handleAnimation() {
-  if (mediaQuery.matches) {
-    // Mobile animation
-    animate('.square1', {
-        x: '23rem',
-        rotate: '1turn',
-        duration: 2000,
-        alternate: true,
-        loop: true,
-        ease: 'inOutQuad',
-        autoplay: onScroll({
-          container: '.scroll-container'
-        })
-      });
-      animate('.square2', {
-        x: '-23rem',
-        rotate: '1turn',
-        duration: 2000,
-        alternate: true,
-        loop: true,
-        ease: 'inOutQuad',
-        autoplay: onScroll({
-          container: '.scroll-container'
-        })
-      });
-  } else {
-    // Desktop animation
-     animate('.square2', {
-            x: '-35rem',
-            rotate: '1turn',
-            duration: 2000,
-            alternate: true,
-            loop: true,
-            ease: 'inOutQuad',
-            autoplay: onScroll({
-              container: '.scroll-container'
-            })
-          });
+// function handleAnimation() {
+//   if (mediaQuery.matches) {
+//     // Mobile animation
+//     animate('.square1', {
+//         x: '23rem',
+//         rotate: '1turn',
+//         duration: 2000,
+//         alternate: true,
+//         loop: true,
+//         ease: 'inOutQuad',
+//         autoplay: onScroll({
+//           container: '.scroll-container'
+//         })
+//       });
+//       animate('.square2', {
+//         x: '-23rem',
+//         rotate: '1turn',
+//         duration: 2000,
+//         alternate: true,
+//         loop: true,
+//         ease: 'inOutQuad',
+//         autoplay: onScroll({
+//           container: '.scroll-container'
+//         })
+//       });
+//   } else {
+//     // Desktop animation
+//      animate('.square2', {
+//             x: '-35rem',
+//             rotate: '1turn',
+//             duration: 2000,
+//             alternate: true,
+//             loop: true,
+//             ease: 'inOutQuad',
+//             autoplay: onScroll({
+//               container: '.scroll-container'
+//             })
+//           });
 
-          animate('.square1', {
-            x: '35rem',
-            rotate: '1turn',
-            duration: 2000,
-            alternate: true,
-            loop: true,
-            ease: 'inOutQuad',
-            autoplay: onScroll({
-              container: '.scroll-container'
-            })
-          });
-  }
-}
+//           animate('.square1', {
+//             x: '35rem',
+//             rotate: '1turn',
+//             duration: 2000,
+//             alternate: true,
+//             loop: true,
+//             ease: 'inOutQuad',
+//             autoplay: onScroll({
+//               container: '.scroll-container'
+//             })
+//           });
+//   }
+// }
 
-// Initial setup
-handleAnimation();
+// // Initial setup
+// handleAnimation();
 
-// Update on resize
-mediaQuery.addListener(handleAnimation);
+// // Update on resize
+// mediaQuery.addListener(handleAnimation);
 
 
 
